@@ -46,7 +46,7 @@ use **data** to compute `hypothesis g` that approximates `target f`
 
 <br />
 
-### Example of h(x) in R^2 (2 features)
+#### Example of h(x) in R^2 (2 features)
 
 ![Perceptrons in R^2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/perceptron%20in%20R%5E2.PNG)
 
@@ -72,7 +72,7 @@ PLA概念
 
 <br />
 
-### Practical Implementation of PLA
+#### Practical Implementation of PLA
 **Cyclic PLA** will stop when not encounting mistakes after **a cycle of point visit** (visit order can follow *data source* or be *randomly* generated before algorithm starts).
 
 ![cyclic PLA](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/cyclic%20PLA.PNG)
