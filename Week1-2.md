@@ -46,14 +46,14 @@ use **data** to compute `hypothesis g` that approximates `target f`
 
 <br />
 
-* Example of h(x) in R^2 (2 features)
+### Example of h(x) in R^2 (2 features)
 
 ![Perceptrons in R^2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/perceptron%20in%20R%5E2.PNG)
 
 <br />
 
 ### Perceptron Learning Algorithm (PLA)
-**Algorithm** is to select `g` from `H` (all possible perceptrons) that approximates target `f` (ideally `g(xn)=f(xn)=yn`)
+**Algorithm** is to select `g` from `H` (all possible perceptrons) that approximates target `f` (ideally `g(xn)=f(xn)=yn`).
 
 **Difficulty** : H is of *infinite* size
 
@@ -66,6 +66,19 @@ PLA概念
 2. yn=-1, 但 sign(wt*xnt)=+1  =>  代表wt 和 xnt 間的角度太小
 修正wt -> wt+1 = wt + ynt*xnt  =>  讓wt+1 和 xnt 間的角度放大, 使得sign(wt+1*xnt)更接近yn
 ```
+<br />
+
+![PLA](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA.PNG)
+
+<br />
+
+### Practical Implementation of PLA
+**Cyclic PLA** will stop when not encounting mistakes after **a cycle of point visit** (visit order can follow *data source* or be *randomly* generated before algorithm starts).
+
+![cyclic PLA](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/cyclic%20PLA.PNG)
+
+<br />
+
 
 
 
