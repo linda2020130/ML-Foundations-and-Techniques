@@ -1,9 +1,10 @@
 # When can Machines learn?
 
 <br />
+<br />
 
 ## _The Learning Problem_
-***
+
 
 #### Key Essence of Machine Learning
 * exists some **underlying patterns** to be learned
@@ -30,8 +31,10 @@ use **data** to compute `hypothesis g` that approximates `target f`
 * Final Hypothesis
 `g `
 
+
+<br />
 <br />
 
 ## _Learning to Answer Yes/No_
-***
+
 
