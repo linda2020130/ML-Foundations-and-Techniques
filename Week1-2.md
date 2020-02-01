@@ -25,7 +25,7 @@ use **data** to compute `hypothesis g` that approximates `target f`
 * Training Data
 `D: (x1, y1), ... ,(xn, yn)`
 * Learning Model
-  * Learning Algorithms `A`
+  * Learning Algorithms `A` (to choose the best g)
   * Hypothesis Set `H` (set of candidate formula)
 * Final Hypothesis
 `g `
@@ -53,5 +53,22 @@ use **data** to compute `hypothesis g` that approximates `target f`
 <br />
 
 ### Perceptron Learning Algorithm (PLA)
+**Algorithm** is to select `g` from `H` (all possible perceptrons) that approximates target `f` (ideally `g(xn)=f(xn)=yn`)
+
+**Difficulty** : H is of *infinite* size
+
+**Idea** of PLA : start from some g0, and *correct* its mistakes on D (represent g0 by its weighted vector w0)
+
+```
+PLA概念
+1. yn=+1, 但 sign(wt*xnt)=-1  =>  代表wt(直線的法向量) 和 xnt 間的角度太大 
+修正wt -> wt+1 = wt + ynt*xnt  =>  讓wt+1 和 xnt 間的角度縮小, 使得sign(wt+1*xnt)更接近yn
+2. yn=-1, 但 sign(wt*xnt)=+1  =>  代表wt 和 xnt 間的角度太小
+修正wt -> wt+1 = wt + ynt*xnt  =>  讓wt+1 和 xnt 間的角度放大, 使得sign(wt+1*xnt)更接近yn
+```
+
+
+
+
 
 
