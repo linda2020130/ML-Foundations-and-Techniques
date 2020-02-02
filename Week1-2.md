@@ -84,9 +84,17 @@ PLA概念
 
 
 #### Linear Separability
-**Linear Separability** : if PLA halts, then D allows some `w` to make no mistake (necessary condition). D is **linear separable**.
+**Linear Separability** : if *PLA halts*, then *D allows some `w` to make no mistake* (necessary condition of PLA). D is **linear separable**.
 
 ![Linear Separable](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/linear%20separable.PNG)
+
+<br />
+
+```
+我們需要證明在 線性可分 的情況下, 權值向量w在接過t次的修正後,
+1. 權值向量w 在接過每一次的修正後會更接近 目標函數的權值向量wf
+2. PLA會停止 => 修正次數t有一個上界
+```
 
 <br />
 
@@ -104,6 +112,8 @@ D線性可分,代表存在一條線[target function f]能夠將y=+1和-1分隔�
 => wf與wt角度越小     
 => 內積[兩向量長度相乘,再乘上cos]會越大
 ```
+
+<br />
 
 ![PLA Align](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20align.PNG)
 
@@ -136,6 +146,8 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 =>   ynt*xnt <= max_n ||yn*xn||^2  =  max_n ||xn||^2  [因為yn長度為1]
 因此, wt+1的長度增長會受到限制
 ```
+
+<br />
 
 ![PLA Grow](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20grow.PNG)
 
