@@ -82,6 +82,10 @@ PLA概念
 ### Linear Separability
 **Linear Separability** : if PLA halts, then D allows some `w` to make no mistake. D is **linear separable**.
 
+![Linear Separable](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/linear%20separable.PNG)
+
+<br />
+
 #### PLA Fact : wt Gets More Aligned with wf
 
 ```
@@ -97,7 +101,7 @@ D線性可分,代表存在一條線[target function f]能夠將y=+1和-1分隔�
 => 內積[兩向量長度相乘,再乘上cos]會越大
 ```
 
-![Linear Separable]()
+![PLA Align](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20align.PNG)
 
 <br />
 
@@ -129,7 +133,7 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 因此, wt+1的長度增長會受到限制
 ```
 
-![PLA Bound]()
+![PLA Grow](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20grow.PNG)
 
 <br />
 
