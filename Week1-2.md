@@ -82,7 +82,58 @@ PLA概念
 ### Linear Separability
 **Linear Separability** : if PLA halts, then D allows some `w` to make no mistake. D is **linear separable**.
 
+#### PLA Fact : wt Gets More Aligned with wf
 
+```
+D線性可分,代表存在一條線[target function f]能夠將y=+1和-1分隔開來 
+<=> 存在wf[f的法向量] s.t. yn=f(xn)=sign(wfT*xn) 對於D內任意點xn
+
+所以, yn和wfT*xn 一定會同號    
+=> yn*(wfT*xn) > 0 對於任意一點xn    
+=> ynt*(wfT*xnt) [第t次修正後,出現錯誤的點xn]  >=  min yn*(wfT*xn) [距離f最近的點xn]  > 0
+
+希望wt藉由每一次的修正, 可以更接近wf    
+=> wf與wt角度越小     
+=> 內積[兩向量長度相乘,再乘上cos]會越大
+```
+
+![Linear Separable]()
+
+<br />
+
+```
+證明了 wf與wt+1的內積 比 wf與wt的內積 還大,
+但 內積變大 可能是由 長度變長 或 角度變小 所造成,
+因此, 還需要證明修正後的wt+1長度並沒有太大變化
+```
+
+#### PLA Fact : wt Does Not Grow Too Fast
+
+```
+再來看看 wt+1的長度 和 wt的長度 之間有什麼關係...
+
+wt+1 = wt + ynt*xnt
+取長度平方後, 後者的中間項為 2*ynt*(wtT*xnt)
+
+PLA的一個特性: 
+wt只有在遇到錯誤時才會進行修正   
+<=>   發生錯誤的點xn: sign(wt*xnt) =\= ynt   
+<=>   ynt和wtT*xnt 一定會異號: ynt*(wtT*xnt) <= 0
+
+由於中間項 2*ynt*(wtT*xnt) < 0, 
+wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
+出錯點長度 一定會比 最遠點長度 還小  
+=>   ynt*xnt <= max_n ||yn*xn||^2  =  max_n ||xn||^2  [因為yn長度為1]
+因此, wt+1的長度增長會受到限制
+```
+
+![PLA Bound]()
+
+<br />
+
+```
+正規化後的wf與wt之內積變大 => 兩向量之角度變小
+```
 
 
 
