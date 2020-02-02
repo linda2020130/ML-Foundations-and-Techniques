@@ -79,8 +79,12 @@ PLA概念
 
 <br />
 
-### Linear Separability
-**Linear Separability** : if PLA halts, then D allows some `w` to make no mistake. D is **linear separable**.
+### Guarantee of PLA
+
+
+
+#### Linear Separability
+**Linear Separability** : if PLA halts, then D allows some `w` to make no mistake (necessary condition). D is **linear separable**.
 
 ![Linear Separable](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/linear%20separable.PNG)
 
