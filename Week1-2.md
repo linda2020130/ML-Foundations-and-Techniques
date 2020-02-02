@@ -80,7 +80,7 @@ PLA概念
 <br />
 
 ### Linear Separability
-
+**Linear Separability** : if PLA halts, then D allows some `w` to make no mistake. D is **linear separable**.
 
 
 
