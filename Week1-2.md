@@ -107,6 +107,8 @@ D線性可分,代表存在一條線[target function f]能夠將y=+1和-1分隔�
 因此, 還需要證明修正後的wt+1長度並沒有太大變化
 ```
 
+<br />
+
 #### PLA Fact : wt Does Not Grow Too Fast
 
 ```
