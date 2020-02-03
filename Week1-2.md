@@ -81,7 +81,7 @@ PLA概念
 
 ### Guarantee of PLA
 
-
+> 證明PLA算法收斂且有最佳解, 以及PLA可行的必要條件: 樣本線性可分
 
 #### Linear Separability
 **Linear Separability** : if *PLA halts*, then *D allows some `w` to make no mistake* (necessary condition of PLA). D is **linear separable**.
