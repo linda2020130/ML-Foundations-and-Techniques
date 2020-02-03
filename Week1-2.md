@@ -119,6 +119,10 @@ D線性可分,代表存在一條線[target function f]能夠將y=+1和-1分隔�
 
 <br />
 
+![PLA Align Iteration](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20align%20iteration.PNG)
+
+<br />
+
 ```
 證明了 wf與wt+1的內積 比 wf與wt的內積 還大,
 但 內積變大 可能是由 長度變長 或 角度變小 所造成,
@@ -153,9 +157,25 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 
 <br />
 
+![PLA Groth Iteration](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20grow%20iteration.PNG)
+
+<br />
+
 ```
-正規化後的wf與wt之內積變大 => 兩向量之角度變小
+結合上面兩個迭代結果,
+正規化後的wf與wt之內積變大 => 兩向量之角度變小 且修正次數有上界
 ```
+
+<br />
+
+![PLA Normalization](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20normalization.PNG)
+
+<br />
+
+![PLA Upper Bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20upper%20bound.PNG)
+
+<br />
+
 
 
 
