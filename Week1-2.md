@@ -1,9 +1,12 @@
 # When can Machines learn?
 
-<br />
+## _The Learning Problem_
+
 <br />
 
-## _The Learning Problem_
+![Roadmap Week1](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%201/roadmap%20w1.PNG)
+
+<br />
 
 #### Key Essence of Machine Learning
 * exists some **underlying patterns** to be learned
@@ -30,11 +33,16 @@ use **data** to compute `hypothesis g` that approximates `target f`
 * Final Hypothesis
 `g `
 
+<br />
+<br />
 
-<br />
-<br />
+****
 
 ## _Learning to Answer Yes/No_
+
+<br />
+
+![Roadmap Week2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/roadmap%20w2.PNG)
 
 <br />
 
