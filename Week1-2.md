@@ -81,7 +81,7 @@ PLA概念
 
 ### Guarantee of PLA
 
-> 說明PLA可行的必要條件: 樣本線性可分, 以及證明PLA算法收斂且有最佳解
+> 說明PLA可行的必要條件: 樣本線性可分, 以及證明PLA演算法收斂且有最佳解
 
 #### Linear Separability
 **Linear Separability** : if *PLA halts*, then *D allows some `w` to make no mistake* (necessary condition of PLA). D is **linear separable**.
@@ -163,12 +163,19 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 
 ```
 結合上面兩個迭代結果,
-正規化後的wf與wt之內積變大 => 兩向量之角度變小 且修正次數有上界
+正規化後的wf與wt之內積會隨著修正次數的增加而變大 => 更趨近最佳解
 ```
 
 <br />
 
 ![PLA Normalization](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20normalization.PNG)
+
+<br />
+
+```
+由於正規化後的向量內積最大值為1(cos0最大為1),
+不等式整理後可知, 修正次數T有上界
+```
 
 <br />
 
