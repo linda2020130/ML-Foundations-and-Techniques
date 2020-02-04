@@ -200,7 +200,7 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 
 D may contain some noisy data, which makes D become linear non-seperable.
 
-![Noisy Data]()
+![Noisy Data](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/noisy%20data.PNG)
 
 <br />
 
@@ -213,7 +213,7 @@ D may contain some noisy data, which makes D become linear non-seperable.
 
 <br />
 
-![Noise Tolerance]()
+![Noise Tolerance](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/noise%20tolerance.PNG)
 
 <br />
 
@@ -232,7 +232,7 @@ NP-hard的問題, 目前無法解...
 將修正前的與修正後的權值向量做比較, 留下犯錯次數較少的
 ```
 
-![Pocket Algorithm]()
+![Pocket Algorithm](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/pocket%20algorithm.PNG)
 
 > a simple modification of PLA to find "somewhat best" weights
 
