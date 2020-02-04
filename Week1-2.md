@@ -15,7 +15,7 @@
 ### What is Machine Learning?
 use **data** to compute `hypothesis g` that approximates `target f`
 
-![ML Components](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/components%20of%20ml.PNG)
+![ML Components](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%101/components%20of%20ml.PNG)
 
 <br />
 
@@ -42,13 +42,13 @@ use **data** to compute `hypothesis g` that approximates `target f`
 * For **x=(x1, ..., xd)**, `d features`, compute a weighted **score** `w`
 * **y={+1, -1}**, positive for good, negative for bad
 
-![Perceptron Hypothesis Formula](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/vector%20form%20of%20perceptron%20hypothesis.PNG)
+![Perceptron Hypothesis Formula](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/vector%20form%20of%20perceptron%20hypothesis.PNG)
 
 <br />
 
 #### Example of h(x) in R^2 (2 features)
 
-![Perceptrons in R^2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/perceptron%20in%20R%5E2.PNG)
+![Perceptrons in R^2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/perceptron%20in%20R%5E2.PNG)
 
 <br />
 
@@ -68,14 +68,14 @@ PLA概念
 ```
 <br />
 
-![PLA](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA.PNG)
+![PLA](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/PLA.PNG)
 
 <br />
 
 #### Practical Implementation of PLA
 **Cyclic PLA** will stop when not encounting mistakes after **a cycle of point visit** (visit order can follow *data source* or be *randomly* generated before algorithm starts).
 
-![cyclic PLA](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/cyclic%20PLA.PNG)
+![cyclic PLA](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/cyclic%20PLA.PNG)
 
 <br />
 
@@ -86,7 +86,7 @@ PLA概念
 #### Linear Separability
 **Linear Separability** : if *PLA halts*, then *D allows some `w` to make no mistake* (necessary condition of PLA). D is **linear separable**.
 
-![Linear Separable](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/linear%20separable.PNG)
+![Linear Separable](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/linear%20separable.PNG)
 
 <br />
 
@@ -115,11 +115,11 @@ D線性可分,代表存在一條線[target function f]能夠將y=+1和-1分隔�
 
 <br />
 
-![PLA Align](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20align.PNG)
+![PLA Align](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/PLA%20align.PNG)
 
 <br />
 
-![PLA Align Iteration](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20align%20iteration.PNG)
+![PLA Align Iteration](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/PLA%20align%20iteration.PNG)
 
 
 ```
@@ -152,11 +152,11 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 
 <br />
 
-![PLA Grow](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20grow.PNG)
+![PLA Grow](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/PLA%20grow.PNG)
 
 <br />
 
-![PLA Groth Iteration](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20grow%20iteration.PNG)
+![PLA Groth Iteration](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/PLA%20grow%20iteration.PNG)
 
 <br />
 
@@ -167,7 +167,7 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 
 <br />
 
-![PLA Normalization](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20normalization.PNG)
+![PLA Normalization](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/PLA%20normalization.PNG)
 
 <br />
 
@@ -178,7 +178,7 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 
 <br />
 
-![PLA Upper Bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20upper%20bound.PNG)
+![PLA Upper Bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/PLA%20upper%20bound.PNG)
 
 <br />
 
@@ -200,7 +200,7 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 
 D may contain some noisy data, which makes D become linear non-seperable.
 
-![Noisy Data](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/noisy%20data.PNG)
+![Noisy Data](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/noisy%20data.PNG)
 
 <br />
 
@@ -213,7 +213,7 @@ D may contain some noisy data, which makes D become linear non-seperable.
 
 <br />
 
-![Noise Tolerance](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/noise%20tolerance.PNG)
+![Noise Tolerance](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/noise%20tolerance.PNG)
 
 <br />
 
@@ -232,7 +232,7 @@ NP-hard的問題, 目前無法解...
 將修正前的與修正後的權值向量做比較, 留下犯錯次數較少的
 ```
 
-![Pocket Algorithm](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/pocket%20algorithm.PNG)
+![Pocket Algorithm](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/pocket%20algorithm.PNG)
 
 > a simple modification of PLA to find "somewhat best" weights
 
