@@ -1,12 +1,12 @@
 # When can Machines learn?
 
+<br />
+
 ## _The Learning Problem_
 
 <br />
 
 ![Roadmap Week1](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%201/roadmap%20w1.PNG)
-
-<br />
 
 #### Key Essence of Machine Learning
 * exists some **underlying patterns** to be learned
@@ -38,13 +38,13 @@ use **data** to compute `hypothesis g` that approximates `target f`
 
 ****
 
+<br />
+
 ## _Learning to Answer Yes/No_
 
 <br />
 
 ![Roadmap Week2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%202/roadmap%20w2.PNG)
-
-<br />
 
 ### Perceptron Hypothesis Set
 * For **x=(x1, ..., xd)**, `d features`, compute a weighted **score** `w`
