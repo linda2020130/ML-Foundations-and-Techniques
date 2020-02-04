@@ -15,7 +15,7 @@
 ### What is Machine Learning?
 use **data** to compute `hypothesis g` that approximates `target f`
 
-![ML Components](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%101/components%20of%20ml.PNG)
+![ML Components](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%201/components%20of%20ml.PNG)
 
 <br />
 
