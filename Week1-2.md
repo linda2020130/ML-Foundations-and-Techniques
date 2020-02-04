@@ -121,7 +121,6 @@ D線性可分,代表存在一條線[target function f]能夠將y=+1和-1分隔�
 
 ![PLA Align Iteration](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20align%20iteration.PNG)
 
-<br />
 
 ```
 證明了 wf與wt+1的內積 比 wf與wt的內積 還大,
@@ -182,6 +181,64 @@ wt+1的長度如果要變大, 必須由 ynt*xnt 來提供
 ![PLA Upper Bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/PLA%20upper%20bound.PNG)
 
 <br />
+
+### Non-Separable Data
+
+* Guarantee of PLA: as long as D is **linear separable** and *correct by mistake*
+    * **wf*wt grows fast** and *length of wt grows slowly*
+    * PLA "lines" are more and more aligned with wf  =>  halts
+
+* Pros: 
+    * simple, fast, works on any dimension
+* Cons: 
+    * can only **assume** D is linear separable; 
+    * not sure **how long halting takes** (depends on wf)
+
+<br />
+
+#### Learning with Noisy Data
+
+D may contain some noisy data, which makes D become linear non-seperable.
+
+![Noisy Data]()
+
+<br />
+
+#### Line with Noise Tolerance
+
+```
+既然找不到一條線可以完美分開+1和-1,
+那麼就退而求其次, 找一條錯誤點數較少的線吧~
+```
+
+<br />
+
+![Noise Tolerance]()
+
+<br />
+
+```
+NP-hard的問題, 目前無法解...
+需要換其他方法
+```
+
+<br />
+
+#### Pocket Algorithm
+
+```
+改良版的PLA:
+隨機選取錯誤值, 並採用原PLA的修正方式, 
+將修正前的與修正後的權值向量做比較, 留下犯錯次數較少的
+```
+
+![Pocket Algorithm]()
+
+> a simple modification of PLA to find "somewhat best" weights
+
+
+
+
 
 
 
