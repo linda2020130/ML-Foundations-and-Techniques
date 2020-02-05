@@ -36,13 +36,13 @@
 * Reinforcement Learning: **implicit yn** by goodness (~yn)
 * ...and more
 
-![Different Data Label]()
+![Different Data Label](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/different%20data%20label.PNG)
 
 <br />
 
 Example of Unsupervised Learning
 
-![Unsupervised Learning]()
+![Unsupervised Learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/unsupervised%20learning.PNG)
 
 <br />
 
