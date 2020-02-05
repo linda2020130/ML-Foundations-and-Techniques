@@ -29,30 +29,30 @@
 
 ### Learning with Different Data Label yn
 
-* Supervised Learning: **every** yn
-* Unsupervised Learning: **no** yn
+* **Supervised** Learning: **every** yn
+* **Unsupervised** Learning: **no** yn
 > Unsupervised Multiclass Classification <=> Clustering
-* Semi-supervised Learning: **some** yn
-* Reinforcement Learning: **implicit yn** by goodness (~yn)
+* **Semi-supervised** Learning: **some** yn
+* **Reinforcement** Learning: **implicit yn** by goodness (~yn)
 * ...and more
 
 ![Different Data Label](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/different%20data%20label.PNG)
 
 <br />
 
-Example of Unsupervised Learning
+Example of **Unsupervised** Learning
 
 ![Unsupervised Learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/unsupervised%20learning.PNG)
 
 <br />
 
-Examples of Semi-supervised Learning
+Examples of **Semi-supervised** Learning
 
 ![Semi-supervised](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/semi-supervised.PNG)
 
 <br />
 
-Examples of Reinforcement Learning
+Examples of **Reinforcement** Learning
 
 ![Reinforcement Learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/reinforcement%20learning.PNG)
 
