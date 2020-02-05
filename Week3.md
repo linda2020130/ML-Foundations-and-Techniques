@@ -8,6 +8,8 @@
 
 ![Roadmap Week3](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/roadmap%20w3.PNG)
 
+<br />
+
 ### Learning with Different Output Space Y
 
 * Binary Classification: y={+1, -1}
@@ -18,6 +20,8 @@
 > Examples: Company Data (Stock Price); Climate Data (Temperature)
 * Structured Learning: y={PVN, PVP, ...}; Huge multiclass classification problem **without *explicit* class definition**
 > Examples: Sequence Tagging(詞性標記 Sentence=>structure); Speech Data=> Speech Parse Tree
+
+<br />
 
 ![Different Output Space](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/different%20output%20space.PNG)
 
