@@ -31,7 +31,7 @@
 
 * Supervised Learning: **every** yn
 * Unsupervised Learning: **no** yn
-> *Clustering* <=> Unsupervised Multiclass Classification
+> Unsupervised Multiclass Classification <=> Clustering
 * Semi-supervised Learning: **some** yn
 * Reinforcement Learning: **implicit yn** by goodness (~yn)
 * ...and more
@@ -40,15 +40,21 @@
 
 <br />
 
-> Examples of Semi-supervised Learning
+Example of Unsupervised Learning
 
-![Semi-supervised]()
+![Unsupervised Learning]()
 
 <br />
 
-> Examples of Reinforcement Learning
+Examples of Semi-supervised Learning
 
-![Reinforcement Learning]()
+![Semi-supervised](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/semi-supervised.PNG)
+
+<br />
+
+Examples of Reinforcement Learning
+
+![Reinforcement Learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/reinforcement%20learning.PNG)
 
 <br />
 
