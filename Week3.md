@@ -6,7 +6,7 @@
 
 <br />
 
-![Roadmap Week3]()
+![Roadmap Week3](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/roadmap%20w3.PNG)
 
 ### Learning with Different Output Space Y
 
@@ -19,7 +19,7 @@
 * Structured Learning: y={PVN, PVP, ...}; Huge multiclass classification problem **without *explicit* class definition**
 > Examples: Sequence Tagging(詞性標記 Sentence=>structure); Speech Data=> Speech Parse Tree
 
-![Different Output Space]()
+![Different Output Space](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/different%20output%20space.PNG)
 
 
 
