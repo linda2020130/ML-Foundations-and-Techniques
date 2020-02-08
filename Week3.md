@@ -62,7 +62,7 @@ Examples of **Reinforcement** Learning
 
 1. **Batch** Learning: learn from ***all known*** data
     * a very *common* protocol (人與機器溝通的方式)
-    * can be supervised or unsupervised learning
+    * can be adapted to supervised or unsupervised learning
 2. **Online** Learning: hypothesis improves through receiving data ***sequentially***
     * *reinforcement* learning is often done online
     * PLA can be adapted to online protocol
