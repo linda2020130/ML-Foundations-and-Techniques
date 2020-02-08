@@ -60,34 +60,41 @@ Examples of **Reinforcement** Learning
 
 ### Learning with Different Protocol f => (xn, yn)
 
-1. **Batch** Learning: learn from *all known* data
+1. **Batch** Learning: learn from ***all known*** data
     * a very *common* protocol (人與機器溝通的方式)
     * can be supervised or non-supervised learning
-2. **Online** Learning: hypothesis improves through receiving data *sequentially*
+2. **Online** Learning: hypothesis improves through receiving data ***sequentially***
     * *reinforcement* learning is often done online
     * PLA can be adapted to online protocol
-3. **Active** Learning: improve hypothesis with fewer labels by asking questions *strategically*
+3. **Active** Learning: improve hypothesis with fewer labels by asking questions ***strategically***
     * usually be adapted due to the *difficulty(cost) of labelling all data*
 
 <br/>
 
-![Different Protocol]()
+![Different Protocol](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/different%20protocol.PNG)
 
 <br />
 
 > Batch Learning (Duck Feeding)
 
-![Batch Learning]()
+![Batch Learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/batch%20learning.PNG)
 
 <br />
 
 > Online Learning (Passive Sequentially)
 
-![Online Learning]()
+![Online Learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/online%20learning.PNG)
 
 <br />
 
 > Active Learning (Question Asking)
 
-![Active Learning]()
+![Active Learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/active%20learning.PNG)
+
+<br />
+
+
+
+
+
 
