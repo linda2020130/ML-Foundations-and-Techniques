@@ -84,8 +84,9 @@
 
 ```
 在固定任一h和N夠大的情況下
-=> Ein(h)近似於Eout(h)
-若同時Ein(h)很小
+=> Ein(h)和Eout(h)之間的距離 大於 Elipson 的機率 有上界
+=> Ein(h)近似於Eout(h)的機率很大
+所以 若同時Ein(h)很小
 => Eout(h)也會很小
 => h(x)=/=f(x)的機率很小
 => h近似於f
