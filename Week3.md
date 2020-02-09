@@ -10,6 +10,8 @@
 
 <br />
 
+***
+
 ### Learning with Different Output Space y
 
 * **Binary Classification**: `y={+1, -1}`
@@ -26,6 +28,8 @@
 ![Different Output Space](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/different%20output%20space.PNG)
 
 <br />
+
+***
 
 ### Learning with Different Data Label yn
 
@@ -57,6 +61,8 @@ Examples of **Reinforcement** Learning
 ![Reinforcement Learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/reinforcement%20learning.PNG)
 
 <br />
+
+***
 
 ### Learning with Different Protocol f => (xn, yn)
 
@@ -92,6 +98,8 @@ Examples of **Reinforcement** Learning
 ![Active Learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/active%20learning.PNG)
 
 <br />
+
+***
 
 ### Learning with Different Input Space X
 
