@@ -136,5 +136,9 @@ Examples of **Reinforcement** Learning
 
 <br />
 
+***
 
+### Summary
+
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/summary.PNG)
 
