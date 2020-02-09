@@ -93,8 +93,40 @@ Examples of **Reinforcement** Learning
 
 <br />
 
+### Learning with Different Input Space X
 
+1. **Concrete** Features: **sophisticated** physical meaning
+    * the easy ones for ML
+2. **Raw** Features: **simple** physical meaning
+    * more difficult for ML
+    * Often need human(`Feature Engineering`) or machines(`Deep Learning`) to *convert to concrete ones*
+3. **Abstract** Features: **no** physical meaning
+    * even more difficult for ML
+    * need *feature conversion/extraction/construction*
 
+<br />
+
+![Different Input Space]()
+
+<br >
+
+> Example of Concrete Features
+
+![concrete features]()
+
+<br />
+
+> Example of Raw Features
+
+![raw features]()
+
+<br />
+
+> Example of Abstract Features
+
+![abstract features]()
+
+<br />
 
 
 
