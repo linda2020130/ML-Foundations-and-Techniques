@@ -66,7 +66,7 @@
 => D={(xn, yn)}, 用[fraction of h(xn)=/=yn]推測未知的[probability of h(x)=/=f(x)]
 ```
 
-![connection learning]()
+![connection learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/connection%20to%20learning.PNG)
 
 <br />
 
@@ -74,7 +74,7 @@
 在固定任一h的情況下, 可以用已知的Ein(h)推測未知的Eout(h)
 ```
 
-![added components]()
+![added components](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/added%20components.PNG)
 
 <br />
 
@@ -89,7 +89,7 @@
 => h近似於f
 ```
 
-![formal guarantee]()
+![formal guarantee](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/formal%20guarantee.PNG)
 
 <br />
 
@@ -97,7 +97,7 @@
 
 > Can we claim good learning?
 
-![verification of one h]()
+![verification of one h](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/verification%20of%20one%20h.PNG)
 
 ```
 不論什麼題目下, A都被強制選出同一個h as g =>通常這個Ein(h)會很大...
@@ -108,7 +108,7 @@
 
 #### The Verification Flow
 
-![verification flow]()
+![verification flow](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/verification%20flow.PNG)
 
 <br />
 
