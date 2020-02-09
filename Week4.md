@@ -26,8 +26,23 @@
 
 <br />
 
+```
+嘗試使用一些方法來推論未知的f
+```
 
+> How do we know the orange probability in the bin?
 
+![infer orange probability]()
+
+> Hoeffding's Inequality
+
+![hoeffding's inequality]()
+
+```
+在N很大的情況下, v和u相差很遠的機率很小
+```
+
+![hoeffding's inequality-2]()
 
 
 
