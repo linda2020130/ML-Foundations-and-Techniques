@@ -106,25 +106,25 @@ Examples of **Reinforcement** Learning
 
 <br />
 
-![Different Input Space]()
+![Different Input Space](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/different%20input%20space.PNG)
 
 <br >
 
 > Example of Concrete Features
 
-![concrete features]()
+![concrete features](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/concrete%20features.PNG)
 
 <br />
 
 > Example of Raw Features
 
-![raw features]()
+![raw features](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/raw%20features.PNG)
 
 <br />
 
 > Example of Abstract Features
 
-![abstract features]()
+![abstract features](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%203/abstract%20features.PNG)
 
 <br />
 
