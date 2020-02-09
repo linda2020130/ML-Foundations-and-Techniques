@@ -129,7 +129,8 @@
 
 #### BAD Sample and BAD Data
 
-**Bad** : `|Ein(h)-Eout(h)| > Epsilon` 
+**Bad** : `|Ein(h)-Eout(h)| > Epsilon`
+<br />
 Example: Eout(h) big, but Ein(h) small
 
 ![Bad Sample](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/bad%20sample.PNG)
