@@ -130,7 +130,7 @@
 
 > Bad : Eout(h) big, but Ein(h) small
 
-![Bad Sample]()
+![Bad Sample](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/bad%20sample.PNG)
 
 <br />
 
