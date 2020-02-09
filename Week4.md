@@ -6,7 +6,7 @@
 
 <br />
 
-![roadmap]()
+![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/roadmap%20w4.PNG)
 
 <br />
 
@@ -16,7 +16,7 @@
 
 > Learning is impossible if any **unknown** f can happen.
 
-![learning is impossible]()
+![learning is impossible](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/learning%20is%20impossible.PNG)
 
 <br />
 
