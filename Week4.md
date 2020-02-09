@@ -61,6 +61,8 @@
 
 ### Connection to Learning
 
+<br />
+
 ```
 在N個sample下, 用v推測未知的u 
 => D={(xn, yn)}, 用[fraction of h(xn)=/=yn]推測未知的[probability of h(x)=/=f(x)]
@@ -116,10 +118,6 @@
 可以透過N筆資料來驗證h=g是不是近似於f
 ```
 
-
-
-
-
 <br />
 
 ***
@@ -128,6 +126,15 @@
 
 <br />
 
+#### BAD Sample and BAD Data
+
+> Bad : Eout(h) big, but Ein(h) small
+
+![Bad Sample]()
+
+<br />
+
+#### Bad Data for Many h
 
 
 
