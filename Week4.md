@@ -84,7 +84,7 @@
 
 ```
 在固定任一h和N夠大的情況下
-=> Ein(h)和Eout(h)之間的距離 大於 Elipson 的機率 有上界
+=> Ein(h)和Eout(h)之間的距離 大於 Epsilon 的機率 有上界
 => Ein(h)近似於Eout(h)的機率很大
 所以 若同時Ein(h)很小
 => Eout(h)也會很小
@@ -129,9 +129,15 @@
 
 #### BAD Sample and BAD Data
 
-> Bad : Eout(h) big, but Ein(h) small
+**Bad** : `|Ein(h)-Eout(h)| > Epsilon` 
+Example: Eout(h) big, but Ein(h) small
 
 ![Bad Sample](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/bad%20sample.PNG)
+
+```
+根據Hoeffding不等式
+=> 出現不好的機率非常小
+```
 
 <br />
 
