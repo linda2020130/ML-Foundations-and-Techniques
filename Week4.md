@@ -35,6 +35,8 @@
 ![infer orange probability](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/infer%20orange%20probability.PNG
 )
 
+<br />
+
 > Hoeffding's Inequality
 
 ![hoeffding's inequality](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/hoeffding's%20inequality.PNG)
@@ -42,6 +44,8 @@
 ```
 在N很大的情況下, v和u相差很遠的機率很小
 ```
+
+<br />
 
 ![hoeffding's inequality-2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/hoeffding's%20inequality-2.PNG)
 
