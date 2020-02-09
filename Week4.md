@@ -32,22 +32,22 @@
 
 > How do we know the orange probability in the bin?
 
-![infer orange probability]()
+![infer orange probability](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/infer%20orange%20probability.PNG
+)
 
 > Hoeffding's Inequality
 
-![hoeffding's inequality]()
+![hoeffding's inequality](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/hoeffding's%20inequality.PNG)
 
 ```
 在N很大的情況下, v和u相差很遠的機率很小
 ```
 
-![hoeffding's inequality-2]()
+![hoeffding's inequality-2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/hoeffding's%20inequality-2.PNG)
 
-
-
-
-
+```
+在N夠大的情況下, 我們可以用v推論未知的u
+```
 
 <br />
 
