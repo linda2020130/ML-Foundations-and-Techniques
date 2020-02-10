@@ -64,6 +64,9 @@
 <br />
 
 ```
+iid = independent and identically distributed 
+一組隨機變量D={(xn, yn)}中每個變量xn的機率分布皆相同, 且這些隨機變量xn互相獨立
+
 在N個sample下, 用v推測未知的u 
 => D={(xn, yn)}, 用[fraction of h(xn)=/=yn]推測未知的[probability of h(x)=/=f(x)]
 ```
