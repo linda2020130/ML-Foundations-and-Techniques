@@ -74,6 +74,8 @@
 
 ```
 在固定任一h的情況下, 可以用已知的Ein(h)推測未知的Eout(h)
+其中Ein(h)代表in-sample error, 也就是h(xn)=/=yn的機率
+Eout(h)代表out-sample error, 也就是h(x)=/=f(x)的機率
 ```
 
 ![added components](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/added%20components.PNG)
