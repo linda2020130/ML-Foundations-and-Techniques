@@ -135,6 +135,8 @@ Example: Eout(h) big, but Ein(h) small
 
 ![Bad Sample](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/bad%20sample.PNG)
 
+<br />
+
 ```
 根據Hoeffding不等式
 => 出現不好的機率非常小
@@ -144,9 +146,57 @@ Example: Eout(h) big, but Ein(h) small
 
 #### Bad Data for Many h
 
+```
+很多個h <=> 演算法可以自由做選擇
+然而每個h都會在某幾次Sample抓取時,出現BAD Data的情況...
+BAD Data的存在容易導致演算法誤選到讓Eout(h)和Ein(h)差很多的h
+```
 
+<br />
 
+![Bad Data for Many h]()
 
+<br />
 
+#### Bound of BAD Data
 
+```
+M個h遇到BAD Data的機率
+=
+h1遇到BAD Data的機率 or h2遇到BAD Data的機率 or hM遇到BAD Data的機率
+```
+
+<br />
+
+![Bound of Bad Data]()
+
+> PD[BAD D] <= 2M*exp(-2(epsilon^2)N)
+
+<br />
+
+#### The 'Statistical' Learning Flow
+
+```
+假如有M個(有限個)hypothesis, 且N夠大
+若演算法A任意挑選一個h as g,
+=> Eout(g)近似於Ein(g)
+若A找到一個Ein(g)接近0的g
+=> PAC guarantee for Eout(g)近似於0
+```
+
+<br />
+
+![Statistical Learning Flow]()
+
+```
+比原本ML Flow多了一個未知的機率函數P, 控制Eout(g)和Ein(g)
+```
+
+<br />
+
+***
+
+#### Summary
+
+![Summary]()
 
