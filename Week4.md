@@ -154,7 +154,7 @@ BAD Data的存在容易導致演算法誤選到讓Eout(h)和Ein(h)差很多的h
 
 <br />
 
-![Bad Data for Many h]()
+![Bad Data for Many h](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/bad%20data%20for%20many%20h.PNG)
 
 <br />
 
@@ -168,7 +168,7 @@ h1遇到BAD Data的機率 or h2遇到BAD Data的機率 or hM遇到BAD Data的機
 
 <br />
 
-![Bound of Bad Data]()
+![Bound of Bad Data](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/bound%20of%20bad%20data.PNG)
 
 > PD[BAD D] <= 2M*exp(-2(epsilon^2)N)
 
@@ -186,7 +186,8 @@ h1遇到BAD Data的機率 or h2遇到BAD Data的機率 or hM遇到BAD Data的機
 
 <br />
 
-![Statistical Learning Flow]()
+![Statistical Learning Flow](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/statistical%20learning%20flow.PNG
+)
 
 ```
 比原本ML Flow多了一個未知的機率函數P, 控制Eout(g)和Ein(g)
@@ -198,5 +199,5 @@ h1遇到BAD Data的機率 or h2遇到BAD Data的機率 or hM遇到BAD Data的機
 
 #### Summary
 
-![Summary]()
+![Summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%204/summary.PNG)
 
