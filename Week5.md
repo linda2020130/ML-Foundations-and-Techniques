@@ -6,7 +6,7 @@
 
 <br />
 
-![roadmap]()
+![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/roadmap%20w5.PNG)
 
 <br />
 
@@ -26,7 +26,7 @@ learning is PAC-possible if enough statistical data[N夠大的情況下,Ein(g)�
 
 <br />
 
-![statistical learning flow]()
+![statistical learning flow](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/stat%20learning%20flow.PNG)
 
 <br />
 
@@ -35,7 +35,7 @@ learning is PAC-possible if enough statistical data[N夠大的情況下,Ein(g)�
 1. Make Eout(g) close to Ein(g)?
 2. Make Ein(g) small enough?
 
-![two central questions]()
+![two central questions](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/two%20central%20questions.PNG)
 
 <br />
 
@@ -54,7 +54,7 @@ M的大小(Hypothesis set)要多少才比較洽當?
 
 <br />
 
-![preview]()
+![preview](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/preview.PNG)
 
 <br />
 
