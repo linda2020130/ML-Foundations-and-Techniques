@@ -74,7 +74,7 @@ M個h遇到BAD Data
 
 <br />
 
-![where did m come from]()
+![where did m come from](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/where%20did%20m%20come%20from.PNG)
 
 <br />
 
@@ -82,7 +82,7 @@ M個h遇到BAD Data
 
 > BAD events Bm **overlapping** => Union bound **Over-estimating**
 
-![over-estimating]()
+![over-estimating](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/over-estimating.PNG)
 
 <br />
 
@@ -97,13 +97,13 @@ M個h遇到BAD Data
 
 > One inout
 
-![one input]()
+![one input](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/one%20input.PNG)
 
 <br />
 
 > Four Input => At most 14
 
-![four input]()
+![four input](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/four%20input.PNG)
 
 <br />
 
@@ -119,7 +119,7 @@ M個h遇到BAD Data
 
 <br />
 
-![effective number of lines]()
+![effective number of lines](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/effective%20number%20of%20lines.PNG)
 
 <br />
 
