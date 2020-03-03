@@ -166,9 +166,9 @@ BAD Data的存在容易導致演算法誤選到讓Eout(h)和Ein(h)差很多的h
 #### Bound of BAD Data
 
 ```
-M個h遇到BAD Data的機率
+M個h遇到BAD Data
 =
-h1遇到BAD Data的機率 or h2遇到BAD Data的機率 or hM遇到BAD Data的機率
+h1遇到BAD Data or h2遇到BAD Data or hM遇到BAD Data
 ```
 
 <br />
