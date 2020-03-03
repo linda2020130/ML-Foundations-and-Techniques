@@ -58,5 +58,18 @@ M的大小(Hypothesis set)要多少才比較洽當?
 
 <br />
 
+***
+
+### Effective Number of Lines
+
+#### Where Did M Come From?
+
+```
+
+
+
+
+
+
 
 
