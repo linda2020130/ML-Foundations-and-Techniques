@@ -65,8 +65,63 @@ M的大小(Hypothesis set)要多少才比較洽當?
 #### Where Did M Come From?
 
 ```
+M個h遇到BAD Data
+= h1遇到BAD Data or h2遇到BAD Data or ... or hM遇到BAD Data
 
+當h遇到BAD Data的時機都沒有重疊時, M個h遇到BAD Data的機率 = 個別h遇到BAD Data的機率相加
+但如果有重疊, 相加的機率結果會比實際上遇到的機率來得高估(upper bound會失真)
+```
 
+<br />
+
+![where did m come from]()
+
+<br />
+
+#### Where Did Uniform Bound Fail?
+
+> BAD events Bm **overlapping** => Union bound **Over-estimating**
+
+![over-estimating]()
+
+<br />
+
+#### How Many Lines Are There?
+
+```
+若把相似的hypothesis(得到相同output的h)群聚在一起,視為一種的話, 
+是否會變有限個h?
+```
+
+<br />
+
+> One inout
+
+![one input]()
+
+<br />
+
+> Four Input => At most 14
+
+![four input]()
+
+<br />
+
+#### Effective Number of Lines
+
+```
+相似的h群聚在一類後, 最多會有幾類? => effective number of lines [ 記作effective(N) ]
+假如effective(N)
+1. 可以取代M
+2. 遠小於2^N
+則learning possible with infinite lines!
+```
+
+<br />
+
+![effective number of lines]()
+
+<br />
 
 
 
