@@ -95,7 +95,7 @@ M個h遇到BAD Data
 
 <br />
 
-> One inout
+> One Inout
 
 ![one input](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/one%20input.PNG)
 
