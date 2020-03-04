@@ -141,7 +141,8 @@ Dichotomy代表二分的意思
 
 #### Growth Function
 ```
-然而dichotomy set其實會取決於我們先選好的x1, x2..., xN, 因為點位置不同會導致不同個不同的dichotomy(dichotomy set的大小不同)
+然而dichotomy set其實會取決於我們先選好的x1, x2..., xN, 
+因為點位置不同會導致不同個不同的dichotomy(dichotomy set的大小不同)
 ```
 
 <br />
