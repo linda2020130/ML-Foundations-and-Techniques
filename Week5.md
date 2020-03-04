@@ -135,7 +135,7 @@ Dichotomy代表二分的意思
 ```
 <br />
 
-![dichotomies]()
+![dichotomies](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/dichotomies.PNG)
 
 <br />
 
@@ -146,7 +146,7 @@ Dichotomy代表二分的意思
 
 <br />
 
-![growth function]()
+![growth function](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/growth%20function.PNG)
 
 <br />
 
@@ -160,7 +160,7 @@ Dichotomy代表二分的意思
 
 > Positive Rays
 
-![positive rays]()
+![positive rays](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/positive%20rays.PNG)
 
 ```
 分隔線a可放進任一個間隔中, 共N+1個間隔
@@ -170,7 +170,7 @@ Dichotomy代表二分的意思
 
 > Positive Intervals
 
-![positive intervals]()
+![positive intervals](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/positive%20intervals.PNG)
 
 ```
 N+1個間隔中取兩個當上下分隔線,
@@ -181,7 +181,7 @@ N+1個間隔中取兩個當上下分隔線,
 
 > Convex Sets
 
-![convex sets]()
+![convex sets](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/convex%20sets.PNG)
 
 ```
 不管要幾個正的, 都可以被Convex Set做出來
