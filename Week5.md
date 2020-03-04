@@ -123,6 +123,78 @@ M個h遇到BAD Data
 
 <br />
 
+***
+
+### Effective Number of Hypotheses
+
+#### Dichotomies: Mini-hypotheses
+```
+Dichotomy代表二分的意思
+將得到相同output的h群聚在一起, 形成一個dichotomy
+總共有?個不同的dichotomy => 可能可以用來替換掉Hoeffding裡的M
+```
+<br />
+
+![dichotomies]()
+
+<br />
+
+#### Growth Function
+```
+然而dichotomy set其實會取決於我們先選好的x1, x2..., xN, 因為點位置不同會導致不同個不同的dichotomy(dichotomy set的大小不同)
+```
+
+<br />
+
+![growth function]()
+
+<br />
+
+```
+多次隨機抓取(x1, x2, ..., xN), 並記錄每一次的dichotomy set的大小
+最後取最大的[記作mH(N): Growth Function]就可以排除掉因選點所造成的誤差
+```
+<br />
+
+#### Examples of Growth Function
+
+> Positive Rays
+
+![positive rays]()
+
+```
+分隔線a可放進任一個間隔中, 共N+1個間隔
+```
+
+<br />
+
+> Positive Intervals
+
+![positive intervals]()
+
+```
+N+1個間隔中取兩個當上下分隔線,
++1代表兩分隔線在同一隔(output全是X)
+```
+
+<br />
+
+> Convex Sets
+
+![convex sets]()
+
+```
+不管要幾個正的, 都可以被Convex Set做出來
+=> mH(N) = 2^N
+
+如果可以找到(特別的)N個點, 可以做出2^N個不同的dichotomy, 使得成長函數為2^N
+=> N inputs "shattered" by H
+```
+
+<br />
+
+
+
 
 
 
