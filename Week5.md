@@ -131,7 +131,7 @@ M個h遇到BAD Data
 ```
 Dichotomy代表二分的意思
 將得到相同output的h群聚在一起, 形成一個dichotomy
-總共有?個不同的dichotomy => 可能可以用來替換掉Hoeffding裡的M
+總共有?個不同的dichotomy => "?"可能可以用來替換掉Hoeffding裡的無限大M
 ```
 <br />
 
