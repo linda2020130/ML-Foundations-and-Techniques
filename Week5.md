@@ -200,7 +200,7 @@ N+1個間隔中取兩個當上下分隔線,
 
 #### The Four Growth Functions
 
-![four growth function]()
+![four growth function](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/four%20growth%20functions.PNG)
 
 <br />
 
@@ -216,13 +216,13 @@ N+1個間隔中取兩個當上下分隔線,
 
 * **Break Point**: if k inputs cannot be shattered by H, call k a *break point* for H.
 
-![break point of H]()
+![break point of H](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/break%20point%20of%20H.PNG)
 
 <br />
 
 #### The Four Break Points
 
-![four break points]()
+![four break points](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/four%20break%20points.PNG)
 
 <br />
 
@@ -234,6 +234,6 @@ N+1個間隔中取兩個當上下分隔線,
 
 ### Summary
 
-![summary]()
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%205/summary.PNG)
 
 
