@@ -194,10 +194,46 @@ N+1個間隔中取兩個當上下分隔線,
 
 <br />
 
+***
 
+### Break Point
 
+#### The Four Growth Functions
 
+![four growth function]()
 
+<br />
 
+```
+目標: 將Hoeffding不等式裡的無限大M 換成 有限的成長函數mH(N)
+若成長函數為多項式 => 不等式依多項式遞增 指數遞減 => 整體隨N變大而收斂
+若成長函數為指數 => 不等式依指數遞增 指數遞減 => 整體不收斂
+```
+
+<br />
+
+#### Break Point of H
+
+* **Break Point**: if k inputs cannot be shattered by H, call k a *break point* for H.
+
+![break point of H]()
+
+<br />
+
+#### The Four Break Points
+
+![four break points]()
+
+<br />
+
+```
+依據觀察...Break Point 與 成長函數 可能有關?!
+```
+
+***
+
+### Summary
+
+![summary]()
 
 
