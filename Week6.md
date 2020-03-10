@@ -6,7 +6,7 @@
 
 <br />
 
-![roadmap]()
+![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/roadmap.PNG)
 
 <br />
 
@@ -22,7 +22,7 @@ growth function mH(N): N個點時，max number of dichotomies
 
 #### The Four Break Points
 
-![four break points]()
+![four break points](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/the%20four%20break%20points.PNG)
 
 <br />
 
@@ -34,7 +34,7 @@ growth function mH(N): N個點時，max number of dichotomies
 
 > **min break point k** restricts **max possible mH(N)** a lot for N > k
 
-![restriction of break point]()
+![restriction of break point](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/restriction%20of%20break%20point.PNG)
 
 <br />
 
