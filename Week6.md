@@ -44,5 +44,32 @@ growth function mH(N): N個點時，max number of dichotomies
 
 ***
 
+### Bounding Function: Basic Cases
+
+#### Bounding Function
+
+```
+假設dichotomy是由OOXX組合而成的一堆向量，其長度為N
+然而，其中k個維度(break point=k)都不希望看到OOXX的所有組合(2^k個組合)
+也就是說不能出現shatter，不能讓這k個點組成所有2^k個組合
+```
+
+<br />
+
+![bounding function]()
+
+<br />
+
+#### Table of Bounding Function
+
+![table of bounding function]()
+
+<br />
+
+
+
+
+
+
 
 
