@@ -20,6 +20,8 @@ growth function mH(N): N個點時，max number of dichotomies
 當mH(k) = 2^k 時，Hypothesis Set 可以被shattered(k個點shatter H)
 ```
 
+<br />
+
 #### The Four Break Points
 
 ![four break points](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/the%20four%20break%20points.PNG)
@@ -30,6 +32,8 @@ growth function mH(N): N個點時，max number of dichotomies
 成長函數mH(N)與break point的關聯?
 ```
 
+<br />
+
 #### Restriction of Break Point
 
 > **min break point k** restricts **max possible mH(N)** a lot for N > k
@@ -38,7 +42,7 @@ growth function mH(N): N個點時，max number of dichotomies
 
 <br />
 
-
+***
 
 
 
