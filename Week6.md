@@ -56,13 +56,13 @@ growth function mH(N): N個點時，max number of dichotomies
 
 <br />
 
-![bounding function]()
+![bounding function](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/bounding%20function.PNG)
 
 <br />
 
 #### Table of Bounding Function
 
-![table of bounding function]()
+![table of bounding function](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/table%20of%20bounding%20function.PNG)
 
 <br />
 
