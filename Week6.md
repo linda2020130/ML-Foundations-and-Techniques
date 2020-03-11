@@ -76,7 +76,7 @@ growth function mH(N): N個點時，max number of dichotomies
 ### Bounding Function: Inductive Cases
 
 #### Estimating B(4, 3)
-![estimating B(4,3)]()
+![estimating B(4,3)](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/estimating.PNG)
 
 <br />
 
@@ -88,7 +88,7 @@ growth function mH(N): N個點時，max number of dichotomies
 ```
 <br />
 
-![estimating part of B(4, 3)-1]()
+![estimating part of B(4, 3)-1](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/estimating%20part%20of%20B(4%2C%203)_1.PNG)
 
 <br />
 
@@ -98,7 +98,7 @@ growth function mH(N): N個點時，max number of dichotomies
 
 <br />
 
-![estimating part of B(4, 3)-2]()
+![estimating part of B(4, 3)-2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/estimating%20part%20of%20B(4%2C%203)_2.PNG)
 
 <br />
 
@@ -110,13 +110,13 @@ growth function mH(N): N個點時，max number of dichotomies
 
 #### Putting It All Together
 
-![put together]()
+![put together](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/put%20together.PNG)
 
 <br />
 
 > Generalized
 
-![generalized upper bound]()
+![generalized upper bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/generalized%20upper%20bound.PNG)
 
 > Now have **upper bound** of bounding function
 
@@ -124,7 +124,7 @@ growth function mH(N): N個點時，max number of dichotomies
 
 #### Bounding Function: The Theorem
 
-![bounding function theorem]()
+![bounding function theorem](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/bounding%20function%20theorem.PNG)
 
 <br />
 
@@ -139,7 +139,7 @@ Bounding Function B(N, k)的上限的上限會是某個多項式函數
 當知道break point時, 就可以知道成長函數mH(N)的上限
 ```
 
-![the three break points]()
+![the three break points](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/the%20three%20break%20points.PNG)
 
 <br />
 
