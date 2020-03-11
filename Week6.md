@@ -53,6 +53,9 @@ growth function mH(N): N個點時，max number of dichotomies
 然而，其中k個維度(break point=k)都不希望看到OOXX的所有組合(2^k個組合)
 也就是說不能出現shatter，不能讓這k個點組成所有2^k個組合
 ```
+<br />
+
+![example](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/example.PNG)
 
 <br />
 
