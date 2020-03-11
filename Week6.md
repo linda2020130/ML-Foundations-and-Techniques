@@ -114,11 +114,11 @@ growth function mH(N): N個點時，max number of dichotomies
 
 <br />
 
-> Generalized
+**Generalized**
 
 ![generalized upper bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/generalized%20upper%20bound.PNG)
 
-> Now have **upper bound** of bounding function
+Now have **upper bound** of bounding function
 
 <br />
 
@@ -133,11 +133,15 @@ Bounding Function B(N, k)的上限的上限會是某個多項式函數
 => 若成長函數mH(N)存在break point, mH(N)則會是poly(N)
 ```
 
+<br />
+
 #### The Three Break Point
 
 ```
 當知道break point時, 就可以知道成長函數mH(N)的上限
 ```
+
+<br />
 
 ![the three break points](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/the%20three%20break%20points.PNG)
 
