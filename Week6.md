@@ -65,14 +65,83 @@ growth function mH(N): N個點時，max number of dichotomies
 
 #### Table of Bounding Function
 
+* B(N, k) = 2^N - 1 for N = k
+
 ![table of bounding function](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/table%20of%20bounding%20function.PNG)
 
 <br />
 
+***
 
+### Bounding Function: Inductive Cases
 
+#### Estimating B(4, 3)
+![estimating B(4,3)]()
 
+<br />
 
+#### Estimating Part of B(4, 3)
+
+```
+先用電腦計算出B(4, 3)= 11
+再試圖將11拆解...
+```
+<br />
+
+![estimating part of B(4, 3)-1]()
+
+<br />
+
+```
+得到 a + b <= B(3, 3)
+```
+
+<br />
+
+![estimating part of B(4, 3)-2]()
+
+<br />
+
+```
+得到a <= B(3, 2)
+```
+
+<br />
+
+#### Putting It All Together
+
+![put together]()
+
+<br />
+
+> Generalized
+
+![generalized upper bound]()
+
+> Now have **upper bound** of bounding function
+
+<br />
+
+#### Bounding Function: The Theorem
+
+![bounding function theorem]()
+
+<br />
+
+```
+Bounding Function B(N, k)的上限的上限會是某個多項式函數
+=> 若成長函數mH(N)存在break point, mH(N)則會是poly(N)
+```
+
+#### The Three Break Point
+
+```
+當知道break point時, 就可以知道成長函數mH(N)的上限
+```
+
+![the three break points]()
+
+<br />
 
 
 
