@@ -156,7 +156,7 @@ Bounding Function B(N, k)的上限的上限會是某個多項式函數
 ```
 <br />
 
-![BAD Bound]()
+![BAD Bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/bad%20bound.PNG)
 
 <br />
 
@@ -175,7 +175,7 @@ Bounding Function B(N, k)的上限的上限會是某個多項式函數
 
 <br />
 
-![step 1_replace eout by e'in]()
+![step 1_replace eout by e'in](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/step%201_replace%20eout%20by%20ein.PNG)
 
 <br />
 
@@ -188,7 +188,7 @@ Bounding Function B(N, k)的上限的上限會是某個多項式函數
 
 <br />
 
-![step 2_decompose h by kind]()
+![step 2_decompose h by kind](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/step%202_decompose%20h%20by%20kind.PNG)
 
 <br />
 
@@ -201,7 +201,7 @@ Bounding Function B(N, k)的上限的上限會是某個多項式函數
 
 <br />
 
-![step 3_use hoeffding without replacement]()
+![step 3_use hoeffding without replacement](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/step%203_use%20hoeffding%20without%20replacement.PNG)
 
 <br />
 
@@ -219,7 +219,7 @@ N夠大時  =>  壞事情發生的機率較會很小
 
 <br />
 
-![that's all]()
+![that's all](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/that's%20all.PNG)
 
 How about perceptron in other dimension?
 
@@ -227,5 +227,5 @@ How about perceptron in other dimension?
 
 #### Summary 
 
-![summary]()
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%206/summary.PNG)
 
