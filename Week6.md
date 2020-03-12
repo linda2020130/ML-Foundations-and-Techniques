@@ -147,5 +147,85 @@ Bounding Function B(N, k)的上限的上限會是某個多項式函數
 
 <br />
 
+***
 
+### A Pictorial Proof
+```
+已知成長函數可能是隨著多項式長大, 能不能把這個成長函數丟進去原本finite bin的Hoeffding裡面
+使得無限多點的情況下Hoeffding也成立???
+```
+<br />
+
+![BAD Bound]()
+
+<br />
+
+```
+僅需要了解這一個證明所用到的技巧就好
+```
+
+<br />
+
+#### Step 1: Replace Eout by E'in
+
+```
+拿用來做verfication的另外N個點(D')計算出E'in
+當Ein離Eout很遠時, 抽一組E'in時, 會有超過一半的機率Ein和E'in的機率也會很近
+```
+
+<br />
+
+![step 1_replace eout by e'in]()
+
+<br />
+
+#### Step 2: Decompose H by Kind
+
+```
+選用其中一個hypothesis, 來看Ein with D和E'in with D'遇到Bad Data的時機是否重疊
+重疊越多=>mH(2N)越小[越接近mH(N)]
+```
+
+<br />
+
+![step 2_decompose h by kind]()
+
+<br />
+
+#### Step 3: Use Hoeffding without Replacement
+
+```
+用一個比較小的bin, 裡面裝2N個珠子, 取N個出來, 取後不放回
+比較一個sample和所有的平均=>Hoeffding
+```
+
+<br />
+
+![step 3_use hoeffding without replacement]()
+
+<br />
+
+#### That's All!
+
+```
+2D perceptron
+break point = 4  => 成長函數最多不會比N^3快
+N夠大時  =>  壞事情發生的機率較會很小
+         =>  演算法選Ein最小的那個
+         =>  g最後也大概會是最小Eout
+
+所以說, 點夠多時, 2D perceptron真的能夠達到機器學習的效果
+```
+
+<br />
+
+![that's all]()
+
+How about perceptron in other dimension?
+
+<br />
+
+#### Summary 
+
+![summary]()
 
