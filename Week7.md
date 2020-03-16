@@ -6,7 +6,7 @@
 
 <br />
 
-![roadmap]()
+![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/roadmap.PNG)
 
 <br />
 
@@ -23,7 +23,7 @@ B(N, k)會被 N^(k-1) bound住
 
 <br />
 
-![recap_growth func]()
+![recap_growth func](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/recap_growth%20func.PNG)
 
 <br />
 
@@ -35,13 +35,13 @@ B(N, k)會被 N^(k-1) bound住
 ```
 <br />
 
-![recap_vc bound]()
+![recap_vc bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/recap_vc%20bound.PNG)
 
 <br />
 
 #### VC Dimension
 
-![vc dimension]()
+![vc dimension](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/vc%20dimension.PNG)
 
 <br />
 
@@ -55,7 +55,7 @@ B(N, k)會被 N^(k-1) bound住
 
 #### The Four VC Dimensions
 
-![the four vc dimension]()
+![the four vc dimension](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/the%20four%20vc%20dimensions.PNG)
 
 <br />
 
@@ -68,7 +68,7 @@ VC Dimension是有限的 => 好的hypothesis set (Ein近似Eout)
 
 <br />
 
-![vc dimension and learning]()
+![vc dimension and learning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/vc%20dimension%20and%20learning.PNG)
 
 <br />
 
