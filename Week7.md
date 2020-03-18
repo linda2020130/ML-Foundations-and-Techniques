@@ -74,6 +74,68 @@ VC Dimension是有限的 => 好的hypothesis set (Ein近似Eout)
 
 ***
 
+### VC Dimension of Perceptrons
+
+#### 2D PLA Revisited
+
+![2d pla revisited]()
+
+<br />
+
+#### VC Dimension of Perceptrons
+
+![vc dimension of perceptrons]()
+
+<br />
+
+1. There are **some** d+1 inputs we can shatter  =>  **d_vc >= d+1**
+2. We cannot shatter **any** set of d+2 inputs  =>  **d_vc <= d+1**
+
+<br />
+
+#### d_vc >= d+1
+
+```
+假設X為some trivial inputs...(加上x0代表threshold)
+=> X 為可逆矩陣
+```
+
+<br />
+
+![can we shatter x]()
+
+<br />
+
+```
+我們假設的X(some trivial inputs)可以被shattered(所有的dichotomy都可以被找到)
+```
+
+<br />
+
+#### d_vc <= d+1
+
+More rows than columns  =>  Linear Dependence 
+
+```
+因為線性相依產生, d+2的向量可以表示成其他向量的線性組合
+```
+
+![d_vc]()
+
+<br />
+
+Linear dependence restricts dichotomy
+
+```
+假設在d+2 inputs下, 
+已知sign(a1),...,sign(a_d+1) 
+只能產生出sign(a_d+2)=1 (假設生成-1會得到矛盾)
+```
+
+<br />
+
+
+
 
 
 
