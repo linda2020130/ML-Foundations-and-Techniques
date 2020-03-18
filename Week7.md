@@ -78,13 +78,13 @@ VC Dimension是有限的 => 好的hypothesis set (Ein近似Eout)
 
 #### 2D PLA Revisited
 
-![2d pla revisited]()
+![2d pla revisited](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/2d%20pla%20revisited.PNG)
 
 <br />
 
 #### VC Dimension of Perceptrons
 
-![vc dimension of perceptrons]()
+![vc dimension of perceptrons](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/vc%20dimension%20of%20perceptrons.PNG)
 
 <br />
 
@@ -102,7 +102,7 @@ VC Dimension是有限的 => 好的hypothesis set (Ein近似Eout)
 
 <br />
 
-![can we shatter x]()
+![can we shatter x](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/can%20we%20shatter%20x.PNG)
 
 <br />
 
@@ -120,7 +120,7 @@ More rows than columns  =>  Linear Dependence
 因為線性相依產生, d+2的向量可以表示成其他向量的線性組合
 ```
 
-![d_vc]()
+![d_vc](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/d_vc.PNG)
 
 <br />
 
