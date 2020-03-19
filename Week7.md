@@ -134,8 +134,52 @@ Linear dependence restricts dichotomy
 
 <br />
 
+***
 
+### Physical Intuition of VC Dimension
 
+```
+d_vc = d+1  => VC Dimension 與 perceptrons的維度有關
+```
+<br />
+
+#### Degrees of Freedom
+
+hypothesis parameters w = (w0, w1,..., wd): creates **degree of freedom**
+
+![degrees of freedom]()
+
+<br />
+
+```
+VC Dimension的物理意義大致上就是我的hypothesis set在我要做二元分類的時候,到底多少有效的自由度?
+=> 也就是到底可以產生多少種dichotomy
+```
+
+<br />
+
+#### Two Old Friends
+
+```
+d_vc 近似於 可調整旋鈕的個數
+```
+
+<br />
+
+![two old friends]()
+
+<br />
+
+#### M and d_vc
+
+```
+遇到壞資料的機率大時,hypothesis set自由度也大(演算法的選擇變多)
+```
+<br />
+
+![m and d_vc]()
+
+<br />
 
 
 
