@@ -147,7 +147,7 @@ d_vc = d+1  => VC Dimension 與 perceptrons的維度有關
 
 hypothesis parameters w = (w0, w1,..., wd): creates **degree of freedom**
 
-![degrees of freedom]()
+![degrees of freedom](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/degrees%20of%20freedom.PNG)
 
 <br />
 
@@ -166,7 +166,7 @@ d_vc 近似於 可調整旋鈕的個數
 
 <br />
 
-![two old friends]()
+![two old friends](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/two%20old%20friends.PNG)
 
 <br />
 
@@ -177,7 +177,7 @@ d_vc 近似於 可調整旋鈕的個數
 ```
 <br />
 
-![m and d_vc]()
+![m and d_vc](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/m%20and%20d_vc.PNG)
 
 <br />
 
