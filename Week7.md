@@ -193,7 +193,7 @@ d_vc 近似於 可調整旋鈕的個數
 
 <br />
 
-![penalty for model complexity]()
+![penalty for model complexity](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/penalty%20for%20model%20complexity.PNG)
 
 <br />
 
@@ -206,7 +206,7 @@ d_vc 近似於 可調整旋鈕的個數
 
 <br />
 
-![penalty for model complexity-2]()
+![penalty for model complexity-2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/penalty%20for%20model%20complexity-2.PNG)
 
 <br />
 
@@ -230,7 +230,7 @@ model的hypothesis set越powerful
 
 high probability = 1 - delta
 
-![the vc message]()
+![the vc message](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/the%20vc%20message.PNG)
 
 <br />
 
@@ -262,7 +262,7 @@ VC Bound還有Sample Complexity的意涵
 
 <br />
 
-![sample complexity()
+![sample complexity(https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/sample%20complexity.PNG)
 
 <br />
 
@@ -277,7 +277,7 @@ What makes the gap between theory and practice?
 
 <br />
 
-![looseness of vc bound]()
+![looseness of vc bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/looseness%20of%20vc%20bound.PNG)
 
 <br />
 
@@ -289,5 +289,5 @@ H(x1,...,xN)的dichotomy是用成長函數mH(N)上限的上限(N^d_VC)去高估�
 
 #### Summary
 
-![summary]()
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%207/summary.PNG)
 
