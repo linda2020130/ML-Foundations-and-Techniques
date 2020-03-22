@@ -200,12 +200,94 @@ d_vc 近似於 可調整旋鈕的個數
 ```
 這個式子代表有很高的機會Ein和Eout的差別會被限制在這個根號項裡
 => 差別小代表好事情發生(Ein和Eout會很靠近)
-一般稱做 generalization error
+這個差別一般稱做 generalization error
 => 說明舉一反三這個部分做得多好
 ```
 
+<br />
 
+![penalty for model complexity-2]()
 
+<br />
 
+```
+最壞的情況發生在Eout=Ein+根號...
+這個根號項一般稱做 model complexity (記做 omega)
+其中的model 指的是 hypothesis set
+omega函數與N, H 和 delta有關
+N => 資料量, 到底有多少點(x1,...,xN)
+H => VC Dimension
+delta => 壞事情發生的機率
 
+model的hypothesis set越powerful
+=> model complexity越高
+=> generalization 付出的代價越高(penalty for model complexity)
+```
+
+<br />
+
+#### THE VC Message
+
+high probability = 1 - delta
+
+![the vc message]()
+
+<br />
+
+```
+Ein隨著VC Dimension變大時, 可以shatter的點變更多了
+=> 出現更多種排列組合
+=> 有機會找到一個更小的Ein
+=> model complexity也跟著變大了
+
+powerful H所付出的penalty也很高 => 未必是用來估Eout最理想的H
+未來會利用這個圖來想辦法設計出更好的機器學習演算法
+```
+
+<br />
+
+#### VC Bound Rephrase: Sample Complexity
+
+```
+VC Bound還有Sample Complexity的意涵
+
+假設你老闆開出一些規格...
+給你一個vc dimension=3的learning model
+希望
+1. Ein和Eout的差距不超過0.1 (=> epsilon = 0.1)
+2. 壞事情發生的機會最多就10% (=> delta = 0.1)
+
+老闆想知道需要多少的資料量才夠??
+```
+
+<br />
+
+![sample complexity()
+
+<br />
+
+In **theory**: need about `N = 10,000 * d_vc`
+In **practice**: need only about `N = 10 * d_vc`
+
+<br />
+
+#### Looseness of VC Bound
+
+What makes the gap between theory and practice?
+
+<br />
+
+![looseness of vc bound]()
+
+<br />
+
+```
+H(x1,...,xN)的dichotomy是用成長函數mH(N)上限的上限(N^d_VC)去高估的
+```
+
+<br />
+
+#### Summary
+
+![summary]()
 
