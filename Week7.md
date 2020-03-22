@@ -181,6 +181,29 @@ d_vc 近似於 可調整旋鈕的個數
 
 <br />
 
+***
+
+### Interpreting VC Dimension
+
+#### VC Bound Rephrase: Penalty for Model Complexity
+
+```
+壞事情發生的機率很小 => 好事情發生的機率很大
+```
+
+<br />
+
+![penalty for model complexity]()
+
+<br />
+
+```
+這個式子代表有很高的機會Ein和Eout的差別會被限制在這個根號項裡
+=> 差別小代表好事情發生(Ein和Eout會很靠近)
+一般稱做 generalization error
+=> 說明舉一反三這個部分做得多好
+```
+
 
 
 
