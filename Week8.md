@@ -40,6 +40,8 @@ Noise can happen in x or y.
 
 #### Probabilistic Marbles
 
+<br />
+
 ![probabilistic marbles](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/probabilistic%20marbles.PNG)
 
 <br />
@@ -75,6 +77,8 @@ Mini-target: 對x(一顆彈珠)做一個預測，最理想的(顏色)預測是?
 <br />
 
 #### The New Learning Flow
+
+<br />
 
 ![new learning flow](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/new%20learning%20flow.PNG)
 
