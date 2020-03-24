@@ -30,6 +30,8 @@ VC Dimension在推導過程中有一些假設，藉由放寬這些假設，
 
 #### Noise
 
+<br />
+
 Noise can happen in x or y.
 
 <br />
@@ -65,6 +67,8 @@ Noise can happen in x or y.
 <br />
 
 #### Target Distribution P(y|x)
+
+<br />
 
 ```
 Mini-target: 對x(一顆彈珠)做一個預測，最理想的(顏色)預測是?
