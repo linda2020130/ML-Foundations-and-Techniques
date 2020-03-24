@@ -6,7 +6,7 @@
 
 <br />
 
-![roadmap]()
+![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/roadmap.PNG)
 
 ```
 VC Dimension在推導過程中有一些假設，藉由放寬這些假設，
@@ -24,7 +24,7 @@ VC Dimension在推導過程中有一些假設，藉由放寬這些假設，
 
 <br />
 
-![recap]()
+![recap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/recap.PNG)
 
 <br />
 
@@ -34,13 +34,13 @@ Noise can happen in x or y.
 
 <br />
 
-![noise]()
+![noise](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/noise.PNG)
 
 <br />
 
 #### Probabilistic Marbles
 
-![probabilistic marbles]()
+![probabilistic marbles](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/probabilistic%20marbles.PNG)
 
 <br />
 
@@ -70,13 +70,13 @@ Mini-target: 對x(一顆彈珠)做一個預測，最理想的(顏色)預測是?
 
 <br />
 
-![target distribution]()
+![target distribution](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/target%20distribution.PNG)
 
 <br />
 
 #### The New Learning Flow
 
-![new learning flow]()
+![new learning flow](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/new%20learning%20flow.PNG)
 
 <br />
 
