@@ -96,6 +96,89 @@ PLA 在想盡辦法去讓Ein越小越好時，會不會真的變成Eout越小越
 
 <br />
 
+***
+
+### Error Measure
+
+<br />
+
+```
+先前用來衡量g跟f到底有多接近的方法
+三種特性: 
+1. out-of-sample
+2. pointwise
+3. classification
+```
+
+<br />
+
+![error measure]()
+
+<br />
+
+#### Pointwise Error Measure
+
+```
+考慮每個點上到底有多少錯誤，再把他們平均
+=> pointwise error measure (記做err)
+```
+
+<br />
+
+![pointwise error measure]()
+
+<br >
+
+```
+目前主要使用pointwise的方式來衡量錯誤，因為比較簡單
+還有很多其他的錯誤衡量方式比較複雜，需要從pointwise方式出發，未來會再介紹
+```
+
+<br />
+
+#### Two Important Pointwise Error Measures
+
+```
+有哪些pointwise的方式?
+Examples:
+1. 0/1 error
+2. squared error
+...
+```
+
+<br />
+
+![two important pointwise error measures]()
+
+<br />
+
+#### Ideal Mini-Target
+
+**P(y|x)** and **err** define *ideal mini-target f(x)*
+
+<br />
+
+![ideal mini-target]()
+
+<br />
+
+#### Learning Flow with Error Measure
+
+![learning flow with error measure]()
+
+<br />
+
+```
+VC Dimension的整個推導與精神對很多不同的Hypothesis Set還有不同的錯誤衡量都會成立
+例如: 今天不做classification分類，而是做回歸分析
+則只需要將VC Dimension的推導做一些修改，定義今天一個實數輸出函數的VC Dimension是怎麼算的
+```
+
+<br />
+
+***
+
+
 
 
 
