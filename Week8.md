@@ -118,6 +118,8 @@ PLA 在想盡辦法去讓Ein越小越好時，會不會真的變成Eout越小越
 
 #### Pointwise Error Measure
 
+<br />
+
 ```
 考慮每個點上到底有多少錯誤，再把他們平均
 => pointwise error measure (記做err)
@@ -138,6 +140,8 @@ PLA 在想盡辦法去讓Ein越小越好時，會不會真的變成Eout越小越
 
 #### Two Important Pointwise Error Measures
 
+<br />
+
 ```
 有哪些pointwise的方式?
 Examples:
@@ -154,6 +158,8 @@ Examples:
 
 #### Ideal Mini-Target
 
+<br />
+
 **P(y|x)** and **err** define *ideal mini-target f(x)*
 
 <br />
@@ -163,6 +169,8 @@ Examples:
 <br />
 
 #### Learning Flow with Error Measure
+
+<br />
 
 ![learning flow with error measure](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/learning%20flow%20with%20error%20measure.PNG)
 
