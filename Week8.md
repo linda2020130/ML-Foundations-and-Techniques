@@ -112,7 +112,7 @@ PLA 在想盡辦法去讓Ein越小越好時，會不會真的變成Eout越小越
 
 <br />
 
-![error measure]()
+![error measure](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/error%20measure.PNG)
 
 <br />
 
@@ -125,7 +125,7 @@ PLA 在想盡辦法去讓Ein越小越好時，會不會真的變成Eout越小越
 
 <br />
 
-![pointwise error measure]()
+![pointwise error measure](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/pointwise%20error%20measure.PNG)
 
 <br >
 
@@ -148,7 +148,7 @@ Examples:
 
 <br />
 
-![two important pointwise error measures]()
+![two important pointwise error measures](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/two%20important%20pointwise%20error%20measures.PNG)
 
 <br />
 
@@ -158,13 +158,13 @@ Examples:
 
 <br />
 
-![ideal mini-target]()
+![ideal mini-target](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/ideal%20mini-target.PNG)
 
 <br />
 
 #### Learning Flow with Error Measure
 
-![learning flow with error measure]()
+![learning flow with error measure](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/learning%20flow%20with%20error%20measure.PNG)
 
 <br />
 
