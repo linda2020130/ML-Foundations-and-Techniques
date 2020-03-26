@@ -196,7 +196,7 @@ VC Dimension的整個推導與精神對很多不同的Hypothesis Set還有不同
 
 <br />
 
-![choice of error measure]()
+![choice of error measure](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/choice%20of%20error%20measure.PNG)
 
 <br />
 
@@ -206,7 +206,7 @@ An example of err penalizes heavier on **false reject**.
 
 <br />
 
-![fingerprint verification for supermarket]()
+![fingerprint verification for supermarket](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/fingerprint%20verification%20for%20supermarket.PNG)
 
 <br />
 
@@ -216,7 +216,7 @@ An example of err penalizes heavier on **false accept**.
 
 <br />
 
-![fingerprint verification for cia]()
+![fingerprint verification for cia](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/fingerprint%20verification%20for%20cia.PNG)
 
 <br />
 
@@ -235,7 +235,7 @@ friendly => 對我們演算法設計更容易一點的方式(比較容易求到�
 
 <br />
 
-![take-home message for now]()
+![take-home message for now](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/take-home%20message%20for%20now.PNG)
 
 <br />
 
@@ -243,7 +243,7 @@ friendly => 對我們演算法設計更容易一點的方式(比較容易求到�
 
 <br />
 
-![learning flow with algorithmic error measure]()
+![learning flow with algorithmic error measure](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/learning%20flow%20with%20algorithmic%20error%20measure.PNG)
 
 <br />
 
