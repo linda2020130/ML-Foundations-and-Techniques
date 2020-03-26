@@ -186,6 +186,71 @@ VC Dimension的整個推導與精神對很多不同的Hypothesis Set還有不同
 
 ***
 
+### Algorithmic Error Measure
+
+<br />
+
+#### Choice of Error Measure
+
+0/1 error penalizes both types equally.
+
+<br />
+
+![choice of error measure]()
+
+<br />
+
+#### Fingerprint Verification for Supermarket
+
+An example of err penalizes heavier on **false reject**.
+
+<br />
+
+![fingerprint verification for supermarket]()
+
+<br />
+
+#### Fingerprint Verification for CIA
+
+An example of err penalizes heavier on **false accept**.
+
+<br />
+
+![fingerprint verification for cia]()
+
+<br />
+
+#### Take-home Message for Now
+
+err is **application/user-dependent**.
+
+```
+然而, 使用者很難將錯誤(err)衡量數字化...
+因此, 我們使用err hat來替代
+
+可產生err hat的方式:
+plausible => 能夠說服我們的方式(合理的衡量方式)
+friendly => 對我們演算法設計更容易一點的方式(比較容易求到最佳解)
+```
+
+<br />
+
+![take-home message for now]()
+
+<br />
+
+#### Learning Flow with Algorithmic Error Measure
+
+<br />
+
+![learning flow with algorithmic error measure]()
+
+<br />
+
+***
+
+
+
 
 
 
