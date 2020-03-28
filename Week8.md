@@ -222,7 +222,7 @@ An example of err penalizes heavier on **false accept**.
 
 #### Take-home Message for Now
 
-err is **application/user-dependent**.
+err is **application/user-dependent**
 
 ```
 然而, 使用者很難將錯誤(err)衡量數字化...
