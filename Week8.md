@@ -222,7 +222,7 @@ An example of err penalizes heavier on **false accept**.
 
 #### Take-home Message for Now
 
-err is **application/user-dependent**
+err is **application/user-dependent**.
 
 ```
 然而, 使用者很難將錯誤(err)衡量數字化...
@@ -281,7 +281,7 @@ PLA : choose Ein = 0 if linear seperable
 
 <br />
 
-![systematic route](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/systematic%20route.PNG)
+![systematic route](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/systematic%20route%20ein.PNG)
 
 <br />
 
