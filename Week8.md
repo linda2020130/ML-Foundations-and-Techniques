@@ -253,7 +253,7 @@ friendly => 對我們演算法設計更容易一點的方式(比較容易求到�
 
 <br />
 
-![weighted classification]()
+![weighted classification](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/weighted%20classification.PNG)
 
 <br />
 
@@ -269,7 +269,7 @@ PLA : choose Ein = 0 if linear seperable
 
 <br />
 
-![minimize ein for weighted classification]()
+![minimize ein for weighted classification](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/minimize%20ein%20for%20weighted%20classification.PNG)
 
 <br />
 
@@ -281,7 +281,7 @@ PLA : choose Ein = 0 if linear seperable
 
 <br />
 
-![systematic route]()
+![systematic route](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/systematic%20route.PNG)
 
 <br />
 
@@ -295,7 +295,7 @@ vitual copying
 
 <br />
 
-![weighted pocket algorithm]()
+![weighted pocket algorithm](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/weighted%20pocket%20algorithm.PNG)
 
 <br />
 
@@ -303,7 +303,7 @@ vitual copying
 
 <br />
 
-![summary]()
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%208/summary.PNG)
 
 
 
