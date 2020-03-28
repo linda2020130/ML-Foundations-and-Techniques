@@ -249,10 +249,61 @@ friendly => 對我們演算法設計更容易一點的方式(比較容易求到�
 
 ***
 
+### Weighted Classification
 
+<br />
 
+![weighted classification]()
 
+<br />
 
+```
+error matrix = cost matrix = loss matrix
+```
+
+<br />
+
+#### Minimizing Ein for Weighted Classification
+
+PLA : choose Ein = 0 if linear seperable
+
+<br />
+
+![minimize ein for weighted classification]()
+
+<br />
+
+#### Systematic Route: Connect Ein^w and Ein^0/1
+
+```
+將y=-1錯誤的點複製1000次 => 將原問題reduce成pocket的問題來解決
+```
+
+<br />
+
+![systematic route]()
+
+<br />
+
+#### Weighted Pocket Algorithm
+
+```
+vitual copying 
+=> 1. 增加遇到y=-1點的機率
+   2. 用Ein^w 來檢查是否換掉口袋裡的最佳解
+```
+
+<br />
+
+![weighted pocket algorithm]()
+
+<br />
+
+#### Summary
+
+<br />
+
+![summary]()
 
 
 
