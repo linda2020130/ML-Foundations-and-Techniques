@@ -57,7 +57,6 @@ class Bounds():
         print("Varlant VC bound: ", self.vvcbound())
 
 
-
 if __name__ == '__main__':        
     m = Bounds(50, 0.05, 10000.0)
     print("d_vc = {d_vc}, delta = {delta}, N = {N}".format(d_vc=m.d_vc, delta=m.delta, N=m.n))
@@ -66,3 +65,5 @@ if __name__ == '__main__':
     m = Bounds(50, 0.05, 5.0)
     print("d_vc = {d_vc}, delta = {delta}, N = {N}".format(d_vc=m.d_vc, delta=m.delta, N=m.n))
     m.output()
+
+
