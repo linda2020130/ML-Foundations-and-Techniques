@@ -36,6 +36,8 @@ Week 14 |Regularization|1. Regularized Hypothesis Set<br>2. Weight Decay Regular
 Week 15 |Validation|1. Model Selection Problem<br>2. Validation<br>3. Leave-One-Out Cross Validation<br>4. V-Fold Cross Validation
 Week 16 |Three Learning Principles|1. Occam's Razor<br>2. Sampling Bias<br>3. Data Snooping<br>4. Power of Three
 
+<br />
+
 ## Machine Learning Techniques
 
 ### Embedding Numerous Features
