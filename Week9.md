@@ -4,7 +4,7 @@
 
 ## Linear Regression
 
-![roadmap]()
+![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/roadmap.PNG)
 
 <br />
 
@@ -22,13 +22,13 @@
 
 #### Credit Limit Problem
 
-![credit limit]()
+![credit limit](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/credit%20limit.PNG)
 
 <br />
 
 #### Lineear Regression Hypothesis
 
-![linear regression hypothesis]()
+![linear regression hypothesis](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/linear%20regression%20hypothesis.PNG)
 
 <br />
 
@@ -40,13 +40,13 @@
 
 <br />
 
-![illustration]()
+![illustration](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/illustration.PNG)
 
 <br />
 
 #### The Error Measure
 
-![error measure]()
+![error measure](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/error%20measure.PNG)
 
 <br />
 
