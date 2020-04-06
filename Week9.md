@@ -4,6 +4,8 @@
 
 ## Linear Regression
 
+<br />
+
 ![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/roadmap.PNG)
 
 <br />
@@ -22,17 +24,23 @@
 
 #### Credit Limit Problem
 
+<br />
+
 ![credit limit](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/credit%20limit.PNG)
 
 <br />
 
 #### Lineear Regression Hypothesis
 
+<br />
+
 ![linear regression hypothesis](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/linear%20regression%20hypothesis.PNG)
 
 <br />
 
 #### Illustration of Linear Regression
+
+<br />
 
 ```
 找到一條線/平面, 使得每個點到線/平面的距離和(誤差)最小
@@ -45,6 +53,8 @@
 <br />
 
 #### The Error Measure
+
+<br />
 
 ![error measure](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/error%20measure.PNG)
 
