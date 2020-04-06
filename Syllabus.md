@@ -35,3 +35,37 @@ Week 13 |Hazard of Overfitting|1. What is Overfitting?<br>2. The Role of Noise a
 Week 14 |Regularization|1. Regularized Hypothesis Set<br>2. Weight Decay Regularization<br>3. Regularization and VC Theory<br>4. General Regularizers
 Week 15 |Validation|1. Model Selection Problem<br>2. Validation<br>3. Leave-One-Out Cross Validation<br>4. V-Fold Cross Validation
 Week 16 |Three Learning Principles|1. Occam's Razor<br>2. Sampling Bias<br>3. Data Snooping<br>4. Power of Three
+
+## Machine Learning Techniques
+
+### Embedding Numerous Features
+
+Lecture   |Topic   |Content   
+:---|:---|:---
+Week 1 |Linear Support Vector Machine|1. Large-Margin Separating Hyperplane<br>2. Standard Large-Margin Problem<br>3. Support Vector Machine<br>4. Reasons behind Large-Margin Hyperplane
+Week 2 |Dual Support Vector Machine|1. Motivation of Dual SVM<br>2. Lagrange Dual SVM<br>3. Solving Dual SVM<br>4. Messages behind Dual SVM
+Week 3 |Kernel Support Vector Machine|1. Kernel Trick<br>2. Polynomial Kernel<br>3. Gaussian Kernel<br>4. Comparison of Kernels
+Week 4 |Soft-margin Support Vector Machine|1. Motivation and Primal Problem<br>2. Dual Problem<br>3. Messages behind Soft-Margin SVM<br>4. Model Selection
+Week 5 |Kernel Logistic Regression|1. Soft-Margin SVM as Regularized Model<br>2. SVM versus Logistic Regression<br>3. SVM for Soft Binary Classification<br>4. Kernel Logistic Regression
+Week 6 |Support Vector Regression|1. Kernel Ridge Regression<br>2. Support Vector Regression Primal<br>3. Support Vector Regression Dual<br>4. Summary of Kernel Models
+
+### Combining Predictive Features
+
+Lecture   |Topic   |Content   
+:---|:---|:---
+Week 7 |Blending and Bagging|1. Motivation of Aggregation<br>2. Uniform Blending<br>3. Linear and Any Blending<br>4. Bagging (Bootstrap Aggregation)
+Week 8 |Adaptive Boosting|1. Motivation of Boosting<br>2. Diversity by Re-weighting<br>3. Adaptive Boosting Algorithm<br>4. Adaptive Boosting in Action
+Week 9 |Decision Tree|1. Decision Tree Hypothesis<br>2. Decision Tree Algorithm<br>3. Decision Tree Heuristics in C&RT<br>4. Decision Tree in Action
+Week 10 |Random Forest|1. Random Forest Algorithm<br>2. Out-Of-Bag Estimate<br>3. Feature Selection<br>4. Random Forest in Action
+Week 11 |Gradient Boosted Decision Tree|1. Adaptive Boosted Decision Tree<br>2. Optimization View of AdaBoost<br>3. Gradient Boosting<br>4. Summary of Aggregation Models
+
+### Distilling Hidden Features
+
+Lecture   |Topic   |Content   
+:---|:---|:---
+Week 12 |Neural Network|1. Motivation<br>2. Neural Network Hypothesis<br>3. Neural Network Learning<br>4. Optimization and Regularization
+Week 13 |Deep Learning|1. Deep Neural Network<br>2. Autoencoder<br>3. Denoising Autoencoder<br>4. Principal Component Analysis
+Week 14 |Radial Basis Function Network|1. RBF Network Hypothesis<br>2. RBF Network Learning<br>3. k-Means Algorithm<br>4. k-Means and RBF Network in Action
+Week 15 |Matrix Factorization|1. Linear Network Hypothesis<br>2. Basic Matrix Factorization<br>3. Stochastic Gradient Descent<br>4. Summary of Extraction Models
+Week 16 |Final|1. Feature Exploitation Techniques<br>2. Error Optimization Techniques<br>3. Overfitting Elimination Techniques<br>4. Machine Learning in Practice
+
