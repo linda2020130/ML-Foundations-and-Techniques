@@ -76,8 +76,8 @@
 
 <br />
 
-![matrix form of ein]()
-![min einw]()
+![matrix form of ein](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/matrix%20form%20of%20ein.PNG)
+![min einw](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/min%20einw.PNG)
 
 <br />
 
@@ -85,7 +85,7 @@
 
 <br />
 
-![the gradient einw]()
+![the gradient einw](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/the%20gradient%20einw.PNG)
 
 <br />
 
@@ -109,7 +109,7 @@ A是奇異矩陣 => 無限多解, detA=0
 
 <br />
 
-![optimal lin reg w]()
+![optimal lin reg w](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/optimal%20lin%20reg%20w.PNG)
 
 <br />
 
@@ -129,7 +129,7 @@ X的rank <= min(N,d+1), 所以當N<d+1時, X的rank < d+1
 
 <br />
 
-![linear regression algorithm]()
+![lin reg algorithm](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/lin%20reg%20algorithm.PNG)
 
 <br />
 
