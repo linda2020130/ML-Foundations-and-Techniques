@@ -62,6 +62,78 @@
 
 ***
 
+### Linear Regression Algorithm
+
+#### Matrix Form of Ein(w)
+
+<br />
+
+```
+向量v = (v1, v2, ..., vn)
+向量v長度 = sqrt(v1^2 + v2^2 + ... + vn^2)
+向量v長度平方 = v1^2 + v2^2 + ... + vn^2
+```
+
+<br />
+
+![matrix form of ein]()
+![min einw]()
+
+<br />
+
+#### The Gradient ∇Ein(w)
+
+<br />
+
+![the gradient einw]()
+
+<br />
+
+```
+A = (d+1) x (d+1) 矩陣
+B = (d+1) x 1 向量
+C = 1 x 1 常數
+```
+
+<br />
+
+#### Optimal Linear Regression Weights
+
+<br />
+
+```
+AX = b
+A是可逆矩陣 => 有唯一解(X = A^(-1)b), detA不為0
+A是奇異矩陣 => 無限多解, detA=0
+```
+
+<br />
+
+![optimal lin reg w]()
+
+<br />
+
+```
+當N<d+1時, 
+X的rank <= min(N,d+1), 所以當N<d+1時, X的rank < d+1
+=> X^T*X的rank也會是<d+1
+故 X^T*X為不可逆
+
+實務上若平台已有寫好的pseudo-inverse程式, 建議直接使用
+因為直接使用可以避免需要去判斷到底是不是可逆矩陣,
+而且在那些看起來很接近singular的矩陣, 數值上也能處理得很好
+```
+<br />
+
+#### Linear Regression Algorithm
+
+<br />
+
+![linear regression algorithm]()
+
+<br />
+
+***
 
 
 
