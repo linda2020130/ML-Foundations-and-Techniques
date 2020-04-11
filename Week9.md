@@ -222,6 +222,51 @@ Ein是看到的東西, 有noise的話會看到那一條線往noise那邊偏一�
 
 ***
 
+### Linear Regression for Binary Classification
+
+#### Linear Classification vs. Linear Regression
+
+<br />
+
+![lin class vs. lin reg]()
+
+<br />
+
+```
+將linear regression得到的值一正負分成+1和-1兩類
+是否就可以用在binary classification上?
+```
+
+<br />
+
+#### Relation of Two Errors
+
+<br />
+
+![relation of two errors]()
+
+<br />
+
+#### Linear Regression for Binary Classification
+
+Recap
+
+<br />
+
+![recap eout upper bound]()
+
+<br />
+
+![lin reg for binary class]()
+
+<br />
+
+### Summary
+
+<br />
+
+![summary]()
+
 
 
 
