@@ -135,5 +135,102 @@ X的rank <= min(N,d+1), 所以當N<d+1時, X的rank < d+1
 
 ***
 
+### Generalization Issue
+
+#### Is Linear Regression a 'Learning Algorithm'?
+
+<br />
+
+![is lin reg a learning algorithm]()
+
+<br />
+
+#### Benefit of Analytic Solution: 'Simpler-than-VC' Guarantee
+
+```
+d+1 => 代表自由度, 有多少種w
+N => 代表資料量
+資料量越多(N>>d+1), Ein平均的資料量越少
+```
+
+<br />
+
+![benefit of analytic sol]()
+
+<br />
+
+#### Geometric View of Hat Matrix
+
+<br />
+
+```
+w 把X的每一個column拿來做線性組合, 每一個column也都是N維向量
+=> 生成一個線性向量空間 span of X columns
+
+H (hat matrix): 將y投影到span上變成y_hat
+I-H (matrix): 將y向量轉換成垂直於span的y-y_hat
+
+trace(I-H): (I-H)矩陣的對角線上所有值相加
+
+物理意義: 原本有一個N個自由度的向量在N維空間轉來轉去, 
+現在要把它投影到一個d+1維的空間, 然後取餘數,
+[因為X由d+1個向量組成, 最多就是d+1維空間]
+所以餘數剩下的自由度最多就是N-(d+1)個
+```
+
+<br />
+
+[geometric view of hat matrix]()
+
+<br />
+
+#### An Illustrative Proof
+
+<br />
+
+![an illustrative proof]()
+
+<br />
+
+```
+noise向量可以經由I-H矩陣轉換成y-y_hat
+I-H有多少自由度(能量)? => trace(I-H)=N-(d+1)
+noise的能量最多就是N-(d+1)這麼多
+
+Ein的平均就是對所有noise做平均的結果
+
+Ein是看到的東西, 有noise的話會看到那一條線往noise那邊偏一點點 => Ein會好看一點
+新資料的雜訊可能是在另一邊, 會比看到的那一條再往另一邊偏一點點 => Eout會差一點
+```
+
+<br />
+
+#### The Learning Curve
+
+<br />
+
+```
+由Ein和Eout平均的公式可以畫出learning curve的圖,
+描述的是資料量與平均Ein和Eout的關係
+```
+
+<br />
+
+![the learning curve]()
+
+<br />
+
+***
+
+
+
+
+
+
+
+
+
+
+
 
 
