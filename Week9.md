@@ -141,7 +141,7 @@ X的rank <= min(N,d+1), 所以當N<d+1時, X的rank < d+1
 
 <br />
 
-![is lin reg a learning algorithm]()
+![is lin reg a learning algorithm](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/is%20lin%20reg%20a%20learning%20algorithm.PNG)
 
 <br />
 
@@ -155,7 +155,7 @@ N => 代表資料量
 
 <br />
 
-![benefit of analytic sol]()
+![benefit of analytic sol](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/benefit%20of%20analytic%20sol.PNG)
 
 <br />
 
@@ -180,7 +180,7 @@ trace(I-H): (I-H)矩陣的對角線上所有值相加
 
 <br />
 
-[geometric view of hat matrix]()
+[geometric view of hat matrix](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/geometric%20view%20of%20hat%20matrix.PNG)
 
 <br />
 
@@ -188,7 +188,7 @@ trace(I-H): (I-H)矩陣的對角線上所有值相加
 
 <br />
 
-![an illustrative proof]()
+![an illustrative proof](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/an%20illustrative%20proof.PNG)
 
 <br />
 
@@ -216,7 +216,7 @@ Ein是看到的東西, 有noise的話會看到那一條線往noise那邊偏一�
 
 <br />
 
-![the learning curve]()
+![the learning curve](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/the%20learning%20curve.PNG)
 
 <br />
 
