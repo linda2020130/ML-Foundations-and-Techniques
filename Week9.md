@@ -180,7 +180,7 @@ trace(I-H): (I-H)矩陣的對角線上所有值相加
 
 <br />
 
-[geometric view of hat matrix](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/geometric%20view%20of%20hat%20matrix.PNG)
+![geometric view of hat matrix](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/geometric%20view%20of%20hat%20matrix.PNG)
 
 <br />
 
