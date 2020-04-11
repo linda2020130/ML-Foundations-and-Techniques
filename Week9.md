@@ -228,7 +228,7 @@ Ein是看到的東西, 有noise的話會看到那一條線往noise那邊偏一�
 
 <br />
 
-![lin class vs. lin reg]()
+![lin class vs. lin reg](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/lin%20class%20vs.%20lin%20reg.PNG)
 
 <br />
 
@@ -243,7 +243,7 @@ Ein是看到的東西, 有noise的話會看到那一條線往noise那邊偏一�
 
 <br />
 
-![relation of two errors]()
+![relation of two errors](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/relation%20of%20two%20errors.PNG)
 
 <br />
 
@@ -253,11 +253,11 @@ Recap
 
 <br />
 
-![recap eout upper bound]()
+![recap eout upper bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/recap%20eout%20upper%20bound.PNG)
 
 <br />
 
-![lin reg for binary class]()
+![lin reg for binary class](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/lin%20reg%20for%20binary%20class.PNG)
 
 <br />
 
@@ -265,16 +265,7 @@ Recap
 
 <br />
 
-![summary]()
-
-
-
-
-
-
-
-
-
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%209/summary.PNG)
 
 
 
