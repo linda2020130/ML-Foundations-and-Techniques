@@ -6,7 +6,7 @@
 
 <br />
 
-![roadmap]()
+![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/roadmap.PNG)
 
 <br />
 
@@ -31,7 +31,7 @@ Heart Disese?
 
 <br />
 
-![heart attack pred problem1]()
+![heart attack pred problem1](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/heart%20attack%20pred%20problem1.PNG)
 
 <br />
 
@@ -40,7 +40,7 @@ Heart Attack?
 
 <br />
 
-![heart attack pred problem2]()
+![heart attack pred problem2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/heart%20attack%20pred%20problem2.PNG)
 
 <br />
 
@@ -59,7 +59,7 @@ Heart Attack?
 
 <br />
 
-![soft binary class]()
+![soft binary class](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/soft%20binary%20class.PNG)
 
 <br />
 
@@ -76,7 +76,7 @@ Logistic Function可以將任意一個實數轉化成一個0到1之間的值
 
 <br />
 
-![logistic hypothesis]()
+![logistic hypothesis](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/logistic%20hypothesis.PNG)
 
 <br />
 
@@ -84,7 +84,7 @@ Logistic Function可以將任意一個實數轉化成一個0到1之間的值
 
 <br />
 
-![logistic function]()
+![logistic function](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/logistic%20function.PNG)
 
 <br />
 
@@ -92,7 +92,7 @@ Logistic Function可以將任意一個實數轉化成一個0到1之間的值
 
 <br />
 
-![fun time]()
+![fun time](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/fun%20time.PNG)
 
 <br />
 
