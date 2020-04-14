@@ -124,7 +124,7 @@ logistic hypothesis 實際上只是binary classification 的hypothesis的一個�
 
 <br />
 
-![three linear models]()
+![three linear models](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/three%20linear%20models.PNG)
 
 <br />
 
@@ -143,9 +143,9 @@ P(y|x)=f(x) for y=+1
 
 <br />
 
-![likelihood1]()
+![likelihood1](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/likelihood1.PNG)
 
-![likelihood2]()
+![likelihood2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/likelihood2.PNG)
 
 <br />
 
@@ -178,8 +178,8 @@ P(x1),...,P(xN)在每個h裡都是一樣的,
 
 <br />
 
-![likelihood of logistic hypothesis1]()
-![likelihood of logistic hypothesis2]()
+![likelihood of logistic hypothesis1](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/likelihood%20of%20logistic%20hypothesis1.PNG)
+![likelihood of logistic hypothesis2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/likelihood%20of%20logistic%20hypothesis2.PNG)
 
 <br />
 
@@ -187,9 +187,9 @@ P(x1),...,P(xN)在每個h裡都是一樣的,
 
 <br />
 
-![cross-entropy error1]()
-![cross-entropy error2]()
-![cross-entropy error3]()
+![cross-entropy error1](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/cross-entropy%20error1.PNG)
+![cross-entropy error2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/cross-entropy%20error2.PNG)
+![cross-entropy error3](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/cross-entropy%20error3.PNG)
 
 <br />
 
@@ -205,7 +205,7 @@ Ein應該要再包含1/N的部分
 
 <br />
 
-![cross-entropy error4]()
+![cross-entropy error4](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/cross-entropy%20error4.PNG)
 
 <br />
 
