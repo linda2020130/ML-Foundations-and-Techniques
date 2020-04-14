@@ -102,6 +102,112 @@ logistic hypothesis 實際上只是binary classification 的hypothesis的一個�
 
 <br />
 
+***
+
+### Logistic Regression Error
+
+<br />
+
+```
+要如何定義Logistic Regression的Error Function?
+```
+
+<br />
+
+#### Three Linear Models
+
+<br />
+
+* Linear Classification: error=**0/1**
+* Linear Regression: error=**squared**
+* Logistic Regression: err=?
+
+<br />
+
+![three linear models]()
+
+<br />
+
+#### Likelihood
+
+<br />
+
+```
+Logistic Regression的目標是找到h(x)接近f(x)=P(+1|x) [P of +1 given x]
+例:心臟病發(y=+1)的機率P是多少?
+
+將f(x)=P(+1|x)反過來寫:
+P(y|x)=f(x) for y=+1
+      =1-f(x) for y=-1 [因為機率P加起來要是1]
+```
+
+<br />
+
+![likelihood1]()
+
+![likelihood2]()
+
+<br />
+
+```
+error measure是用來衡量h和f有多接近
+若h和f很接近, 那麼h產生這些資料的可能性和f產生這些資料的可能性就應該很接近
+
+f是真正已經產生這些資料D的機率函數=>通常是因為f產生這些資料D的機率大
+```
+
+<br />
+
+#### Likelihood of Logistic Hypothesis
+
+<br />
+
+```
+h的可能性和f的機率應該要是差不多"大"的
+在所有的h裡面找可能性最高的h來當作g
+
+logistic function的對稱性: 1-h(x)=h(-x)
+
+likelihood(h)=P(x1)h(+x1)*P(x2)h(-x2)*...*P(xN)h(-xN)
+
+因為我們是要在所有h裡找出可能性最高的,
+P(x1),...,P(xN)在每個h裡都是一樣的,
+所以likelihood(h)會正比於h(y1x1)*h(y2x2)*...*h(yNxN)
+其中的y={+1,-1}
+```
+
+<br />
+
+![likelihood of logistic hypothesis1]()
+![likelihood of logistic hypothesis2]()
+
+<br />
+
+#### Cross-Entropy Error
+
+<br />
+
+![cross-entropy error1]()
+![cross-entropy error2]()
+![cross-entropy error3]()
+
+<br />
+
+```
+最大化某個值=最小化某個值的負數
+(因為error measure都是找Ein最小值, 所以必須推導一個Ein做minimize的動作)
+
+多乘一個scaling=1/N是為了使logistic regression的error measure長得更像我們熟悉的長相
+Ein應該要再包含1/N的部分
+
+產生的err measure是一個pointwise error(在一個X一個Y上面就可以衡量error)
+```
+
+<br />
+
+![cross-entropy error4]()
+
+<br />
 
 
 
