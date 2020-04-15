@@ -225,7 +225,7 @@ Ein應該要再包含1/N的部分
 
 <br />
 
-![minimizing ein(w)]()
+![minimizing ein(w)](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/minimizing%20ein.PNG)
 
 <br />
 
@@ -251,7 +251,7 @@ d(e^x)/dx = e^x
 
 <br />
 
-![the gradient ein]()
+![the gradient ein](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/the%20gradient%20ein.PNG)
 
 <br />
 
@@ -259,7 +259,7 @@ d(e^x)/dx = e^x
 
 <br />
 
-![minimizing ein2]()
+![minimizing ein2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/minimizing%20ein2.PNG)
 
 <br />
 
@@ -279,7 +279,7 @@ d(e^x)/dx = e^x
 
 <br />
 
-![pla revisited]()
+![pla revisited](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/pla%20revisited.PNG)
 
 <br />
 
@@ -292,7 +292,7 @@ else  => return 1
 
 <br />
 
-![pla revisited2]()
+![pla revisited2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/pla%20revisited2.PNG)
 
 <br />
 
@@ -304,7 +304,7 @@ PLA演算法一輪一輪的跑, 跑了以後決定方向然後走一步, 這種�
 那只要我們對要更新的方向v, 還有要走多大步η做不同的定義, 我們就會得到不同的演算法
 ```
 
-<
+<br />
 
 
 
