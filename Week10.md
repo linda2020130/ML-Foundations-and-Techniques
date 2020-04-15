@@ -209,6 +209,103 @@ Ein應該要再包含1/N的部分
 
 <br />
 
+***
+
+### Gradient of Logistic Regression Error
+
+<br />
+
+```
+如何找出Ein最小值呢?
+```
+
+<br />
+
+#### Minimizing Ein(w)
+
+<br />
+
+![minimizing ein(w)]()
+
+<br />
+
+```
+要找Ein(w)最小值就必須先寫出∇Ein(w)的函數, 然後再算函數=0時, w=?
+```
+
+<br />
+
+#### The Gradient ∇Ein(w)
+
+<br />
+
+```
+Chain Rule:
+If w=w(x(t)),
+Then dw/dt = dw/dx*dx/dt
+
+指對數微分:
+d(ln x)/dx = 1/x
+d(e^x)/dx = e^x
+```
+
+<br />
+
+![the gradient ein]()
+
+<br />
+
+#### Minimizing Ein(w)
+
+<br />
+
+![minimizing ein2]()
+
+<br />
+
+```
+要使得∇Ein(w)=0, 則必須所有θ()=0
+要讓所有θ()=0, 有兩種可能情況:
+1. yn*w^T*xn >> 0, 因為θ(-無限大)=0
+2. weighted sum = 0
+
+若為第一種情況, 則必須所有xn和yn同號 => linearly seperable -><- θ函數非線性
+然而第二種情況在θ函數為非線性方程式時很難求解...
+```
+
+<br />
+
+#### PLA Revisited: Iterative Optimization
+
+<br />
+
+![pla revisited]()
+
+<br />
+
+```
+將PLA的兩步驟融合在一起
+
+if sign(wt^T*xn) = yn  => return 0
+else  => return 1
+```
+
+<br />
+
+![pla revisited2]()
+
+<br />
+
+```
+多塞了一個常數η, 表示在這個方向我要走多大步,
+在PLA裡面我們沒有特別強調這個步驟的重要性, 我們就先假設他走一,
+PLA演算法一輪一輪的跑, 跑了以後決定方向然後走一步, 這種演算法稱為"iterative optimization"
+
+那只要我們對要更新的方向v, 還有要走多大步η做不同的定義, 我們就會得到不同的演算法
+```
+
+<
+
 
 
 
