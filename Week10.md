@@ -306,8 +306,119 @@ PLA演算法一輪一輪的跑, 跑了以後決定方向然後走一步, 這種�
 
 <br />
 
+***
 
+### Gradient Descent
 
+#### Iterative Optimization
 
+<br />
+
+```
+目標: 最快的到達山谷
+v => 往山谷的單位方向向量
+η => 步伐長度
+
+因此，我們必須在方圓η的範圍裡，找一個最好的方向v，使得Ein下降最多，往這個v方向踏出去。
+```
+
+<br />
+
+![iterative optimization](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/iterative%20optimization.PNG)
+
+<br />
+
+#### Linear Approximation
+
+<br />
+
+```
+min Ein(wt + ηv) 仍然是非線性，很難直接求解
+=> 使用泰勒展開式來轉換成線性的逼近值
+```
+
+<br />
+
+![linear approximation](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/linear%20approximation.PNG)
+
+<br />
+
+#### Gradient Descent
+
+<br />
+
+```
+v^T 與 ∇Ein(wt)要最小 => 兩向量剛好反方向時，內積最小(負)(A˙B = |A||B|cosθ)
+因此可以根據已知的∇Ein(wt)來定義最好的v
+```
+
+<br />
+
+![gradient descent](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/gradient%20descent.PNG)
+
+<br />
+
+#### Choice of η
+
+<br />
+
+```
+已經知道v該怎麼找到最好的了,下一個問題是η該怎麼定...
+```
+
+<br />
+
+![choice of eta](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/choice%20of%20eta.PNG)
+
+<br />
+
+```
+η太小 => 效率太差
+η太大 => 跑到對面山坡上, Ein可能不減反增
+
+最好的η應該是能夠根據坡度來調整大小, 坡度大η跟著大, 坡度小η也變小 =>η與坡度成正比關係
+```
+
+<br />
+
+#### Simple Heuristic for Changing η
+
+<br />
+
+```
+因為紅色η與坡度(gradient的大小)成正比關係
+可以假設 紅色η=||∇Ein(wt)|| * 紫色η
+=> 紫色η = 紅色η / ||∇Ein(wt)||
+因此改寫Wt+1...
+其中的紫色η又稱為fixed learning rate(學習速度)
+```
+
+<br />
+
+![simple heuristric for changing eta](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/simple%20heuristic%20for%20changing%20eta.PNG)
+
+<br />
+
+#### Putting Everything Together
+
+<br />
+
+![putting everything together](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/putting%20everything%20together.PNG)
+
+<br />
+
+```
+常見的停止條件: 大概到谷底就好(Ein接近0)或者 跑了足夠多次後
+```
+
+<br />
+
+***
+
+### Summary
+
+<br />
+
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2010/summary.PNG)
 
 
