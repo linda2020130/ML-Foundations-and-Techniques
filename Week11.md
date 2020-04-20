@@ -4,7 +4,7 @@
 
 <br />
 
-![roadmap]()
+![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/roadmap.PNG)
 
 <br />
 
@@ -26,7 +26,7 @@
 
 <br />
 
-![linear models revisited]()
+![linear models revisited](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/linear%20models%20revisited.PNG)
 
 <br />
 
@@ -49,7 +49,7 @@ Linear Classification是NP-Hard的問題...
 
 <br />
 
-![error function revisited]()
+![error function revisited](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/error%20functions%20revisited.PNG)
 
 <br />
 
@@ -73,13 +73,13 @@ scaled ce: 將err_ce的ln改取log2, 使得ys=0時err轉化為1, 與err_0/1切�
 
 With err_ce
 
-![visualizing error functions1]()
+![visualizing error functions1](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/visualizing%20error%20function1.PNG)
 
 <br />
 
 With err_sce
 
-![visualizing error function2]()
+![visualizing error function2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/visualizing%20error%20function2.PNG)
 
 <br />
 
@@ -95,7 +95,7 @@ With err_sce
 
 <br />
 
-![theoretical implication of upper bound]()
+![theoretical implication of upper bound](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/theoretical%20implication%20of%20upper%20bound.PNG)
 
 <br />
 
@@ -111,7 +111,7 @@ With err_sce
 
 <br />
 
-![regression for classification]()
+![regression for classification](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/regression%20for%20classification.PNG)
 
 <br />
 
