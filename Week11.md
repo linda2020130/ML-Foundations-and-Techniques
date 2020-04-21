@@ -117,6 +117,34 @@ With err_sce
 
 ***
 
+### Stochastic Gradient Descent
+
+#### Two Iterative Optimization Schemes
+
+* PLA: O(1)
+* Logistic Regression: O(N)
+
+<br />
+
+![two iterative optimization schemes]()
+
+<br />
+
+#### Logistic Regression Revisited
+
+<br />
+
+```
+
+```
+
+
+
+
+
+
+
+
 
 
 
