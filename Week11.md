@@ -126,7 +126,7 @@ With err_sce
 
 <br />
 
-![two iterative optimization schemes]()
+![two iterative optimization schemes](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/two%20iterative%20optimization%20schemes.PNG)
 
 <br />
 
@@ -145,7 +145,7 @@ Ein(wt+ηv)約等於Ein(wt)+η*(v^T)*∇Ein(wt)
 
 <br />
 
-![logistic regression revisited]()
+![logistic regression revisited](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/logistic%20regression%20revisited.PNG)
 
 <br />
 
@@ -153,7 +153,7 @@ Ein(wt+ηv)約等於Ein(wt)+η*(v^T)*∇Ein(wt)
 
 <br />
 
-![sgd]()
+![sgd](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/sgd.PNG)
 
 <br />
 
@@ -172,14 +172,11 @@ score(w*x)很大時, θ不是接近0就是接近1 => PLA時, yn=sign(wx)得0, �
 
 <br />
 
-![pla revisited]()
+![pla revisited](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/pla%20revisited.PNG)
 
 <br />
 
 ***
-
-
-
 
 
 
