@@ -135,13 +135,48 @@ With err_sce
 <br />
 
 ```
+Ein(wt+ηv)約等於Ein(wt)+η*(v^T)*∇Ein(wt)
+其中v為更新方向, v與∇Ein(wt)方向相反時, 內積最小 => Ein會最小
 
+目標: 不希望花O(N)的力氣去把梯度算出來
+=> 想像成是一個隨機過程的平均
+=> 隨機抽一個當作是整體的平均(極端case)
 ```
 
+<br />
 
+![logistic regression revisited]()
 
+<br />
 
+#### Stochastic Gradient Descent (SGD)
 
+<br />
+
+![sgd]()
+
+<br />
+
+#### PLA Revisited
+
+<br />
+
+```
+soft PLA: 不是看有沒有錯來更新, 而是看錯多少, 錯多一點就多更新一點, 錯少一點就少更新一點
+score(w*x)很大時, θ不是接近0就是接近1 => PLA時, yn=sign(wx)得0, 不相等時得1
+
+實務上如何使用SGD來替代PLA?
+1. 何時該停 => 跑夠多次
+2. η? => 0.1126(或0.1)
+```
+
+<br />
+
+![pla revisited]()
+
+<br />
+
+***
 
 
 
