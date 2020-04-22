@@ -178,8 +178,111 @@ score(w*x)很大時, θ不是接近0就是接近1 => PLA時, yn=sign(wx)得0, �
 
 ***
 
+### Multiclass via Logistic Regression
 
+#### Multiclass Classification
 
+<br />
+
+```
+Multiclass Classification常用於影像辨識, 聲音辨識等,
+如何將已經學會的binary classification或者logistic regression延伸來到這個多類別分類的問題上?
+```
+
+<br />
+
+![multiclass classification]()
+
+<br />
+
+#### One Class at a Time
+
+<br />
+
+```
+將其中一個類別用binary classification和其他類別分開
+```
+
+<br />
+
+![one class at a time]()
+
+<br />
+
+#### Multiclass Prediction: Combine Binary Classifiers
+
+<br />
+
+```
+會出現三種狀況:
+1. 有其中一個分類器說圈圈(表示是屬於他的類別), 其他說叉叉 (可以確定分類)
+2. 有多個分類器說圈圈, 剩下說叉叉 (無法確定分類)
+3. 全部分類器都說叉叉 (無法確定分類)
+```
+<br />
+
+![combine binary classifiers]()
+
+<br />
+
+#### One Class at a Time Softly
+
+<br />
+
+```
+從回答是不是該分類轉變為是該分類的可能性有多少(soft),
+用顏色深淺來決定可能性高低,
+```
+
+<br />
+
+![one class at a time softly]()
+
+<br />
+
+#### Multiclass Prediction: Combine Soft Classifiers
+
+<br />
+
+```
+比較每個分類器的機率, 將點劃分到得到最大機率的分類
+由於θ是單調(monotonic)遞增函數, 我們只需要找出最大的, 並不需要知道實際值,
+因此, 可以不需要考慮logistic function
+```
+
+<br />
+
+![combine soft classifiers]()
+
+<br />
+
+#### One-Versus-All (OVA) Decomposition
+
+<br />
+
+```
+OVA Decomposition: 將一個multiclass問題拆成多個binary classification的問題 (非常常用的方法)
+k個分類 => 跑k次logistic regression
+
+Pros: efficient, 可以平行處理(同時在不同機器跑logistic regression), 
+且此方法可套用到任何像logistic regression一樣會輸出一個可以比大小數值的函數上
+
+Cons: 如果類別比重不均時(e.g. 100個類別裡只有一個是圈圈), 
+logistic regression會有一個很輕易就做得很好的solution(e.g. 全部猜叉叉), 
+到最後會得到一堆喜歡猜叉叉的logistic regression hypotheses, 要從裡面選最大的一個,
+有時候效果會不是很好
+
+統計學上有將logistic regression延伸到多類別的分類問題上 => Multinomial Logistic Regression
+有將機率加起來要等於1這件事情放進去, 來得到更好的估計
+```
+
+<br />
+
+![ova decomposition]()
+
+<br />
+
+***
 
 
 
