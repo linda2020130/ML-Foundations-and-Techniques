@@ -191,7 +191,7 @@ Multiclass Classification常用於影像辨識, 聲音辨識等,
 
 <br />
 
-![multiclass classification]()
+![multiclass classification](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/multiclass%20classification.PNG)
 
 <br />
 
@@ -205,7 +205,7 @@ Multiclass Classification常用於影像辨識, 聲音辨識等,
 
 <br />
 
-![one class at a time]()
+![one class at a time](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/one%20class%20at%20a%20time.PNG)
 
 <br />
 
@@ -221,7 +221,7 @@ Multiclass Classification常用於影像辨識, 聲音辨識等,
 ```
 <br />
 
-![combine binary classifiers]()
+![combine binary classifiers](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/combine%20binary%20classifiers.PNG)
 
 <br />
 
@@ -236,7 +236,7 @@ Multiclass Classification常用於影像辨識, 聲音辨識等,
 
 <br />
 
-![one class at a time softly]()
+![one class at a time softly](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/one%20class%20at%20a%20time%20softly.PNG)
 
 <br />
 
@@ -252,7 +252,7 @@ Multiclass Classification常用於影像辨識, 聲音辨識等,
 
 <br />
 
-![combine soft classifiers]()
+![combine soft classifiers](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/combine%20soft%20classifiers.PNG)
 
 <br />
 
@@ -278,7 +278,7 @@ logistic regression會有一個很輕易就做得很好的solution(e.g. 全部�
 
 <br />
 
-![ova decomposition]()
+![ova decomposition](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/ova%20decomposition.PNG)
 
 <br />
 
