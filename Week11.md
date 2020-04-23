@@ -299,7 +299,7 @@ logistic regression會有一個很輕易就做得很好的solution(e.g. 全部�
 
 <br />
 
-![source of unbalance]()
+![source of unbalance](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/source%20of%20unbalance.PNG)
 
 #### One versus One at a Time
 
@@ -311,7 +311,7 @@ logistic regression會有一個很輕易就做得很好的solution(e.g. 全部�
 
 <br />
 
-![one versus one at a time]()
+![one versus one at a time](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/one%20versus%20one%20at%20a%20time.PNG)
 
 <br />
 
@@ -333,7 +333,7 @@ logistic regression會有一個很輕易就做得很好的solution(e.g. 全部�
 
 <br />
 
-![combine pairwise classifiers]()
+![combine pairwise classifiers](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/combine%20pairwise%20classifiers.PNG)
 
 <br />
 
@@ -356,7 +356,7 @@ Cons: O(K^2) => 更占空間(計算出來需要被儲存的w變多), 預測得�
 
 <br />
 
-![ovo decomposition]()
+![ovo decomposition](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/ovo%20decomposition.PNG)
 
 <br />
 
@@ -366,6 +366,6 @@ Cons: O(K^2) => 更占空間(計算出來需要被儲存的w變多), 預測得�
 
 <br />
 
-![summary]()
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2011/summary.PNG)
 
 
