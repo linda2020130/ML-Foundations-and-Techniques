@@ -284,9 +284,88 @@ logistic regression會有一個很輕易就做得很好的solution(e.g. 全部�
 
 ***
 
+### Multiclass via Binary Classification
 
+#### Source of Unbalance: One versus All
 
+<br />
 
+```
+當每一個類別很少的時候, 會造成一打多的unbalance問題...
+因此, 解決辦法就是用一打一的對打方式
+簡單而言, 原本是方塊和其他三個不同的類別, 來看看哪個是圈圈(是方塊), 哪個是叉叉(不是方塊),
+現在一打一就是先從所有類別裡選出兩種類別, 來看哪個是圈圈, 哪個是叉叉
+```
 
+<br />
+
+![source of unbalance]()
+
+#### One versus One at a Time
+
+<br />
+
+```
+總共有六種類別, 因此一打一的情況下會有C4取2=6場對決
+```
+
+<br />
+
+![one versus one at a time]()
+
+<br />
+
+#### Multiclass Prediction: Combine Pairwise Classifiers
+
+<br />
+
+```
+最後該如何決定哪一邊當作方塊, 哪一邊當作菱形, 哪一邊當作三角形...呢?
+首先, 決定哪邊當方塊時, 只要看跟方塊有關的分類器, 即在訓練過程中有使用方塊資料的分類器,
+透過前面這三個分類器就可以知道方塊在哪一個區塊了
+
+有一點像是有四個隊伍, 到底哪一隊是總冠軍?
+六場比賽就是這四個隊伍的循環賽, 每個分類器都會說其中哪一個隊伍比較好
+假設在右上角有一個測試點(紅點), 第一到三個分類器都說他是方塊, 第四個說他是菱形, 第五六個說是星星,
+所以, 對這個測試點最好的預測就是方塊(在測試點上由方塊得冠軍)
+對每一個點都可以用這六個分類器去做同樣的預測, 然後把預測結果畫出來, 最後可以得到右邊的圖
+```
+
+<br />
+
+![combine pairwise classifiers]()
+
+<br />
+
+#### One-versus-one (OVO) Decomposition
+
+<br />
+
+```
+將原本的資料轉成...先選出兩個class來做Binary Classification, 只需要用的和這兩個class有關的資料,
+其中一個class當作是正1, 另一個當作是負1, 最後在每個點上選出冠軍
+
+Pros: efficient => 因為每一輪只用和這兩個class有關的資料, 資料量較小, 所以每輪跑比較快
+且可和任何Binary classification的方法搭配
+
+Cons: O(K^2) => 更占空間(計算出來需要被儲存的w變多), 預測得更慢(需要把每個分類器的結果算出來)
+, 需耗費更多機器(如果要平行化來做)
+
+在所有種類K不多的情況下, OVO還是蠻常用的
+```
+
+<br />
+
+![ovo decomposition]()
+
+<br />
+
+***
+
+### Summary
+
+<br />
+
+![summary]()
 
 
