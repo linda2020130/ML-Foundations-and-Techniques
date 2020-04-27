@@ -98,11 +98,14 @@ Feature Transform: z1 = x1^2, z2 = x2^2, ...
 
 ```
 在Z空間裡的每一個perceptron可以幫助我們實現某一個在X空間裡對應的這個分類方式
+
+現在我們知道如何定義一個二次曲線集合起來的Hypothesis Set,
+下一步: 要怎樣學到一個好的二次hypotheses?
 ```
 
 <br />
 
-
+***
 
 
 
