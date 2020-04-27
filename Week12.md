@@ -9,7 +9,8 @@
 <br />
 
 ```
-上週講的是三個Linear Models(Linear Classification, Linear Regression, Logistic Regression)都可以用在各式Classification問題上, 
+上週講的是三個Linear Models(Linear Classification, Linear Regression, Logistic Regression),
+都可以用在各式Classification問題上, 
 包括Binary Classification和Multiclass的問題, 但是這些Models都是用線性的方式算一個分數, 
 那我們現在就是要把這樣的Models延伸到Nonlinear的情況做資料分類
 ```
