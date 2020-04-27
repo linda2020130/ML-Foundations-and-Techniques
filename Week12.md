@@ -4,12 +4,14 @@
 
 <br />
 
-![roadmap]()
+![roadmap](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/roadmap.PNG)
 
 <br />
 
 ```
-上週講的是三個Linear Models(Linear Classification, Linear Regression, Logistic Regression)都可以用在各式Classification問題上, 包括Binary Classification和Multiclass的問題, 但是這些Models都是用線性的方式算一個分數, 那我們現在就是要把這樣的Models延伸到Nonlinear的情況做資料分類
+上週講的是三個Linear Models(Linear Classification, Linear Regression, Logistic Regression)都可以用在各式Classification問題上, 
+包括Binary Classification和Multiclass的問題, 但是這些Models都是用線性的方式算一個分數, 
+那我們現在就是要把這樣的Models延伸到Nonlinear的情況做資料分類
 ```
 
 <br />
@@ -29,7 +31,7 @@
 
 <br />
 
-![linear hypotheses]()
+![linear hypotheses](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/linear%20hypotheses.PNG)
 
 <br />
 
@@ -48,7 +50,7 @@ x1^2 + x2^2 < 0.6 => 圈圈
 
 <br />
 
-![circular separable]()
+![circular separable](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/circular%20separable.PNG)
 
 <br />
 
@@ -58,7 +60,7 @@ Feature Transform: z1 = x1^2, z2 = x2^2, ...
 
 <br />
 
-![circular separable and linear separable]()
+![circular separable and linear separable](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/circular%20separable%20and%20linear%20separable.PNG)
 
 <br />
 
@@ -81,7 +83,7 @@ Feature Transform: z1 = x1^2, z2 = x2^2, ...
 
 <br />
 
-![linear hypotheses in z-space]()
+![linear hypotheses in z-space](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/linear%20hypotheses%20in%20z-space.PNG)
 
 <br />
 
@@ -89,7 +91,7 @@ Feature Transform: z1 = x1^2, z2 = x2^2, ...
 
 <br />
 
-![general quadratic hypothesis set]()
+![general quadratic hypothesis set](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/general%20quadratic%20hypothesis%20set.PNG)
 
 <br />
 
