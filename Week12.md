@@ -113,7 +113,7 @@ Feature Transform: z1 = x1^2, z2 = x2^2, ...
 
 <br />
 
-![good quadratic hypothesis]()
+![good quadratic hypothesis](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/good%20quadratic%20hypothesis.PNG)
 
 <br />
 
@@ -121,7 +121,7 @@ Feature Transform: z1 = x1^2, z2 = x2^2, ...
 
 <br />
 
-![nonlinear transform steps]()
+![nonlinear transform steps](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/nonlinear%20transform%20steps.PNG)
 
 <br />
 
@@ -140,11 +140,11 @@ Feature Transform: z1 = x1^2, z2 = x2^2, ...
 
 Two choices:
 * Feature Transform Φ
-* Linear Mdel A
+* Linear Model A
 
 <br />
 
-![nonlinear model via nonlinear phi + linear models]()
+![nonlinear model via nonlinear phi + linear models](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/nonlinear%20model%20via%20nonlinear%20phi%20%2B%20linear%20models.PNG)
 
 <br />
 
@@ -152,7 +152,7 @@ Two choices:
 
 <br />
 
-![feature transform]()
+![feature transform](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/feature%20transform.PNG)
 
 <br />
 
