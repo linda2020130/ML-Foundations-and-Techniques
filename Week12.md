@@ -107,6 +107,68 @@ Feature Transform: z1 = x1^2, z2 = x2^2, ...
 
 ***
 
+### Nonlinear Transform
+
+#### Good Quadratic Hypothesis
+
+<br />
+
+![good quadratic hypothesis]()
+
+<br />
+
+#### The Nonlinear Transform Steps
+
+<br />
+
+![nonlinear transform steps]()
+
+<br />
+
+```
+想像是透過反運算將Z空間得到的perceptron轉化為X空間的perceptron,
+然而...反運算不一定存在, 因為X到Z的關係可能不是一對一
+所以實際上是把任何一個在X空間裡的點, 把它對應到Z空間裡面, 
+得到在Z空間時是圈圈或叉叉後, 再把X空間的點標圈圈或叉叉
+```
+
+<br />
+
+#### Nonlinear Model via Nonlinear Φ + Linear Models
+
+<br />
+
+Two choices:
+* Feature Transform Φ
+* Linear Mdel A
+
+<br />
+
+![nonlinear model via nonlinear phi + linear models]()
+
+<br />
+
+#### Feature Transform Φ
+
+<br />
+
+![feature transform]()
+
+<br />
+
+```
+透過Feature Transform(需要人的智慧)將raw feature轉換為concrete feature(機器易學)
+但是做Feature Transform所犧牲的代價是...?
+```
+
+<br />
+
+***
+
+
+
+
+
 
 
 
