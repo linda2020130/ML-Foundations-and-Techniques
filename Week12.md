@@ -182,7 +182,7 @@ Q次多項式轉換需要多少dimensions? (Z有多少個組成?)
 
 <br />
 
-![computation_storage price]()
+![computation_storage price](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/computation_storage%20price.PNG)
 
 <br />
 
@@ -199,7 +199,7 @@ Q次多項式轉換需要多少dimensions? (Z有多少個組成?)
 
 <br />
 
-![model complexity price]()
+![model complexity price](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/model%20complexity%20price.PNG)
 
 <br />
 
@@ -216,7 +216,7 @@ Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
 
 <br />
 
-![generalization issue]()
+![generalization issue](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/generalization%20issue.PNG)
 
 <br />
 
@@ -224,7 +224,7 @@ Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
 
 <br />
 
-![danger of visual choices]()
+![danger of visual choices](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/danger%20of%20visual%20choices.PNG)
 
 <br />
 
