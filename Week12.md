@@ -165,6 +165,87 @@ Two choices:
 
 ***
 
+### Price of Nonlinear Transform
+
+#### Computation/Storage Price
+
+<br />
+
+```
+Q次多項式轉換需要多少dimensions? (Z有多少個組成?)
+有d種不同的東西(x1, x2, ..., xd), 要取小於等於Q個東西出來, 
+在允許重複取的情形下, 有多少種取法? => C Q+d取Q
+
+做Feature Transform需要花Q^d的力氣去做計算和儲存,
+所以當Q很大時, 計算/儲存上會出現困難
+```
+
+<br />
+
+![computation_storage price]()
+
+<br />
+
+#### Model Complexity Price
+
+<br />
+
+```
+原本在X空間是d+1的自由度(d_vc), 轉換到Z空間自由度大概會是~d+1(C Q+d取Q)
+
+任何一個在Z空間裡的d加2個點是沒有任何一條直線(perceptron)可以shatter的
+=> 回到X空間裡的d加2個點也不能夠被任何Q次曲線shatter
+```
+
+<br />
+
+![model complexity price]()
+
+<br />
+
+#### Generalization Issue
+
+<br />
+
+```
+Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
+          Q很小時 => Ein和Eout靠很近, 但Ein可能很大
+          
+該如何選擇Q的大小? 用眼睛看可以嗎?
+```
+
+<br />
+
+![generalization issue]()
+
+<br />
+
+#### Danger of Visual Choices
+
+<br />
+
+![danger of visual choices]()
+
+<br />
+
+```
+用眼睛看的過程中已使用了"人腦"來主觀判斷資料適合用多大的Q
+忽略了使用人腦的代價 => 高估機器學習可以做到的事情
+```
+
+<br />
+
+***
+
+
+
+
+
+
+
+
+
+
 
 
 
