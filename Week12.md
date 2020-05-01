@@ -237,22 +237,38 @@ Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
 
 ***
 
+### Structured Hypothesis Sets
 
+#### Polynomial Transform Revisited
 
+<br />
 
+![polynomial transform revisited]()
 
+<br />
 
+#### Structured Hypothesis Sets
 
+<br />
 
+![structured hypo sets]()
 
+<br />
 
+#### Linear Model First
 
+<br />
 
+![linear model first]()
 
+<br />
 
+***
 
+### Summary
 
+<br />
 
-
+![summary]()
 
 
