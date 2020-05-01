@@ -243,7 +243,7 @@ Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
 
 <br />
 
-![polynomial transform revisited]()
+![polynomial transform revisited](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/polynomial%20transform%20revisited.PNG)
 
 <br />
 
@@ -251,7 +251,7 @@ Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
 
 <br />
 
-![structured hypo sets]()
+![structured hypo sets](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/structured%20hypo%20sets.PNG)
 
 <br />
 
@@ -259,7 +259,7 @@ Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
 
 <br />
 
-![linear model first]()
+![linear model first](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/linear%20model%20first.PNG)
 
 <br />
 
@@ -269,6 +269,6 @@ Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
 
 <br />
 
-![summary]()
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/summary.PNG)
 
 
