@@ -255,11 +255,24 @@ Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
 
 <br />
 
+```
+d_vc越大 => 選擇(hypothesis)越多 => 越有機會找到Ein比較小的g
+```
+
+<br />
+
 #### Linear Model First
 
 <br />
 
 ![linear model first](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/linear%20model%20first.PNG)
+
+<br />
+
+```
+Ein只要夠小就好, 不用追求最小, 甚至是等於0
+實務上來說Linear Model其實就可以做得不錯
+```
 
 <br />
 
@@ -270,5 +283,4 @@ Tradeoff: Q很大時 => Ein可以很小, 但Ein和Eout可能隔很遠
 <br />
 
 ![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2012/summary.PNG)
-
 
