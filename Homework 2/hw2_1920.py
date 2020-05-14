@@ -9,7 +9,7 @@ Description: Decision stumps can also work for multi-dimensional data. Each deci
             b) return the "best of best" decission stump in terms of Ein. If there is a tie, please randomly
             choose among the lowest-Ein ones
 Input: Training dataset was saved and named as 'hw2_dataset_train.csv';
-        Testing dataset was saved and named as 'hw1_dataset_test.csv';
+        Testing dataset was saved and named as 'hw2_dataset_test.csv';
 Output: Ein of the optimal decision stump running on D_train and use the returned decision stump to predict the 
         label of each example within D_test and report an estimate of Eout by E_test.
 '''
