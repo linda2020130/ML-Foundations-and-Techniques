@@ -1,6 +1,6 @@
 # How Can Machines Learn?
 
-## Nonlinear Transformation?
+## Nonlinear Transformation
 
 <br />
 
