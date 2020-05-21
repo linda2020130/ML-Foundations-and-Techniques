@@ -128,8 +128,83 @@ Learning Curve: Expected Error v.s. Number of Data Points, N
 
 ***
 
+### Deterministic Noise
 
+#### A Detailed Experiment
 
+<br />
+
+```
+透過y = target function + noise來實驗變數變換時對overfit有什麼影響
+三個變數: 
+1. Gaussian iid noise
+2. Qf : Q次多項式, 在產生多項式的隨機過程需要正規化(不然可能某些項的係數過小而整個項消失掉), 才能確保真的是Q次
+3. data size N
+```
+
+<br />
+
+![detailed experiment](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2013/detailed%20experiment.PNG)
+
+<br />
+
+#### The Overfit Measure
+
+<br />
+
+```
+Eout(g10)和Eout(g2)差很遠 -> Overfit很嚴重
+```
+<br />
+
+![overfit measure](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2013/overfit%20measure.PNG)
+
+<br />
+
+#### The Results
+
+<br />
+
+```
+左圖的Qf固定在20 -> Stochastic noise
+右圖的σ^2固定在0.1 -> Deterministic noise
+```
+
+<br />
+
+![results](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2013/results.PNG)
+
+#### Impact of Noise and Data Size
+
+<br />
+
+When does overfit happen?
+1. Small Data Size N
+2. Large Stochastic Noise
+3. Large Deterministic Noise
+4. Excessive Power
+
+<br />
+
+![impact of noise and data size](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2013/impact%20of%20noise%20and%20data%20size.PNG)
+
+<br />
+
+#### Deterministic Noise
+
+<br />
+
+```
+在教一個簡單的hypothesis set的時候, 不要舉太複雜的例子可以得到較小的deterministic noise
+```
+
+<br />
+
+![deterministic noise](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2013/deterministic%20noise.PNG)
+
+<br />
+
+***
 
 
 
