@@ -206,6 +206,57 @@ When does overfit happen?
 
 ***
 
+### Dealing with Overfitting
 
+#### Driving Analogy Revisited
 
+<br />
+
+Practical techniques to combat overfitting:
+1. **Start from simple model** (VC dimension not excessive)
+2. **Data Cleaning/Pruning** (decrease noise)
+3. **Data Hinting** (increse data size)
+4. **Regularization**
+5. **Validation**
+
+<br />
+
+![driving analogy](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2013/driving%20analogy.PNG)
+
+<br />
+
+#### Data Cleaning/Pruning
+
+<br />
+
+Possible helps, but effect varies:
+* Data Cleaning: correct the label
+* Data Pruning: remove the example
+
+<br />
+
+![data cleaning](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2013/data%20cleaning.PNG)
+
+<br />
+
+#### Data Hinting
+
+<br />
+
+Possible helps, but watch out new added data **not iid~P(X,y)**
+* Data Hinting: add virtual examples by shifting/rotating the given digits
+
+<br />
+
+![data hinting](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2013/data%20hinting.PNG)
+
+<br />
+
+***
+
+### Summary
+
+<br />
+
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2013/summary.PNG)
 
