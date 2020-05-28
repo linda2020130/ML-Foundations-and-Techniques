@@ -94,4 +94,98 @@ H(0) ⊂ H(1.126) ⊂ ... ⊂ H(1126) ⊂ ... ⊂ H(∞) = H10
 
 ***
 
+### Weight Decay Regularization
+
+#### Matrix Form of Regularized Regression Problem
+
+<br />
+
+```
+將sigma連加改寫成矩陣運算式,
+w必須落在半徑為根號C的球內
+```
+
+<br />
+
+![matrix form](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/matrix%20form.PNG)
+
+<br />
+
+#### The Lagrange Multiplier
+
+<br />
+
+```
+w_lin => 山谷 (Ein最低點)
+紅色圓圈 => 半徑為根號C的球
+=> 限制式使得w只能在球內或線上滾
+最好的解 = 符合條件又不能再往下滾 = -∇Ein(w)(藍色)與w_REG(紅色法向量)平行
+```
+
+<br />
+
+![lagrange multiplier](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/lagrange%20multiplier.PNG)
+
+<br />
+
+#### Augmented Error
+
+<br />
+
+```
+若已知 λ , 則變成是由w_REG組成的線性方程式
+正定矩陣是可逆 => 存在唯一解 (Ridge Regression)
+```
+
+<br />
+
+![augmented error](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/augmented%20error.PNG)
+
+<br />
+
+```
+解有限制式C的Ein最佳化問題 = 解沒有限制式的E_aug最佳化問題
+```
+
+<br />
+
+![augmented error2](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/augmented%20error2.PNG)
+
+<br />
+
+#### The Results
+
+<br />
+
+```
+λ=0 => 等於沒有限制式 => Overfitting
+λ=1 => 模型複雜度太低 => Underfitting
+λ只要一點點就可以讓w變小 (weight-decay regularization)
+```
+
+<br />
+
+![results](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/results.PNG)
+
+<br />
+
+#### Some Detail: Legendre Polynomials
+
+<br />
+
+```
+Polynomial regression要做regularization時, 用Legendre Polynomial效果會比較好
+=> 加了一些係數讓多項式彼此之間是垂直的
+```
+
+<br />
+
+![legendre polynomials](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/legendre%20polynomials.PNG)
+
+<br />
+
+***
+
+
+
 
