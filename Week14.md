@@ -186,6 +186,64 @@ Polynomial regression要做regularization時, 用Legendre Polynomial效果會比
 
 ***
 
+### Regularization and VC Theory
+
+<br />
+
+```
+解一個constrained的Ein問題 => 解一個augmented的Ein問題 (因為C與λ有一個對應關係)
+
+原constrained的Ein問題對應到的VC Guarantee
+=>
+Eout <= Ein + H在限制式C下的Complexity所產生的Penalty
+
+augmented的Ein問題 => 沒有真正限制在H(C)裡, 仍考慮了所有的w, 但只用了一小部分的w(prefer w比較短的)
+```
+
+<br />
+
+![vc theory](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/vc%20theory.PNG)
+
+<br />
+
+#### Another View of Augmented Error
+
+<br />
+
+```
+E_aug可以看做是比Ein還要好的代理人(代表Eout)
+```
+
+<br />
+
+![another view](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/another%20view.PNG)
+
+<br />
+
+#### Effective VC Dimension
+
+<br />
+
+```
+考慮了所有的w => d_vc(H)
+但實際上只考慮了比較短的w(C限制式) => d_vc(H(C))
+因此可以定義一個Effective d_vc = d_eff(H, A)  [A=min E_aug]
+他考慮了Hypothesis Set以及Algorithm在H裡怎麼做選擇(只選w不超過根號C的)
+```
+
+<br />
+
+![effective vc dimension](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/effective%20vc%20dimension.PNG)
+
+<br />
+
+***
+
+
+
+
+
+
 
 
 
