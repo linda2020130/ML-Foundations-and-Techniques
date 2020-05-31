@@ -239,11 +239,71 @@ E_aug可以看做是比Ein還要好的代理人(代表Eout)
 
 ***
 
+### General Regularizers
 
+#### General Regularizers Ω(w)
 
+<br />
 
+```
+因為不知道target function是什麼, 退而求其次, 能不能知道target function在哪個方向?
+然後把這個方向用限制條件(=regularizers)定住
+=> regularizers告訴我們一個比較小的範圍來描述prefer的target
 
+e.g. 
+1. Target-dependent: 如果覺得target可能是比較接近偶函數或很接近偶函數
+=> regularizer可能就會是一個可以讓奇數次方的w變小的限制式
+2. Plausible: 希望regularizer可以讓我輕易選出較平滑或較簡單的hypothesis
+=> sparsity (L1) regularizer (詳見下一週)
+3. Friendly: 希望找比較好做optimize的regularizer
+=> weight decay (L2) regularizer
 
+把λ=0放入條件 => λ=0等於沒有限制式
+```
 
+<br />
+
+![general regularizers](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/general%20regularizers.PNG)
+
+<br />
+
+#### L2 and L1 Regularizer
+
+<br />
+
+```
+L1 因為是方形的 => 尖角處不可微
+sparsity => w很多都是0, 只有少數是1
+通常在尖角的地方-∇Ein(w)(藍色)與w_REG(紅色法向量)才會平行 => 最佳解
+```
+
+<br />
+
+![L2 and L1](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/L2%20and%20L1.PNG)
+
+<br />
+
+#### The Optimal λ
+
+<br />
+
+```
+noise越多, λ需要越大
+然而noise是未知的....λ該如何選擇呢?(詳見下一週)
+```
+
+<br />
+
+![the optimal](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/the%20optimal.PNG)
+
+<br />
+
+***
+
+### Summary
+
+<br />
+
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2014/summary.PNG)
 
 
