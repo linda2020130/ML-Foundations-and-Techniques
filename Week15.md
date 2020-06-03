@@ -70,7 +70,70 @@ Select the one with min Ein => Always select the most complicated one => Overfit
 
 ***
 
+### Validation
 
+#### Validation Set Dval
 
+<br />
+
+```
+將D拆分成D_train和D_val
+
+Hoeffding's Inequality保證Eout() <= Eval() + O(((log M)/K)^(1/2))
+finite-bin, M種選擇, K代表validation set大小
+```
+
+<br />
+
+![validation set dval](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2015/validation%20set%20dval.PNG)
+
+<br />
+
+#### Model Selection by Best Eval
+
+<br />
+
+```
+通過training得到每個H最好的g-後, 用驗證資料Dval算出每個g-對應的E, 選出最低的E和對應的H
+最後將所有資料(training + validation)丟進去選出的模型(A+H)內並重做一次得到最後的g
+
+實務上來說: 使用越多資料 => Eout會越低 (by learning curve)
+```
+
+<br />
+
+![model selection by best eval](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2015/model%20selection%20by%20best%20eval.PNG)
+
+<br />
+
+#### Validation in Practice
+
+<br />
+
+![validation in practice](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2015/validation%20in%20practice.PNG)
+
+<br />
+
+```
+實務上來說用所有資料的Eout(g)會比只用training資料的Eout(g-)來得小
+```
+
+<br />
+
+#### The Dilemma about K
+
+<br />
+
+![dilemma about k](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2015/dilemma%20about%20k.PNG)
+
+<br />
+
+```
+實務上來說會取驗證資料K= N/5
+```
+
+<br />
+
+***
 
 
