@@ -26,8 +26,6 @@
 
 The **simplest model** that fits the data is also the most plausible.
 
-<br />
-
 ```
 1. 怎樣的模型叫做簡單?
 2. 為什麼簡單的模型比較好?
@@ -75,8 +73,6 @@ simple model => simple hypothesis
 ### Sampling Bias
 
 If the data is sampled in a biased way, learning will produce a similiarly biased outcome.
-
-<br />
 
 ```
 做機器學習的前提假設: 
