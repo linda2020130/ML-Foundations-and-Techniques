@@ -86,7 +86,7 @@ data and testing both iid from P
 
 <br />
 
-![sampling bias]()
+![sampling bias](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/sampling%20bias.PNG)
 
 <br />
 
@@ -100,7 +100,7 @@ data and testing both iid from P
 
 <br />
 
-![dealing with sampling bias]()
+![dealing with sampling bias](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/dealing%20with%20sampling%20bias.PNG)
 
 <br />
 
