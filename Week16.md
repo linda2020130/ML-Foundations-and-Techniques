@@ -102,5 +102,138 @@ data and testing both iid from P
 
 ***
 
+### Data Snooping
 
+#### Visual Data Snooping
 
+<br />
+
+```
+肉眼偷看資料 => 腦袋裡的d_vc會被忽略掉
+=> 計算出來的d_vc會失準
+```
+
+<br />
+
+![visual data snooping](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/visual%20data%20snooping.PNG)
+
+<br />
+
+#### Data Snooping by Mere Shifting-Scaling
+
+<br />
+
+![shifting-scaling](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/shifting-scaling.PNG)
+
+<br />
+
+#### Data Snooping by Data Reusing
+
+<br />
+
+```
+拷問資料夠久, 它就會招供(給你一個很好的Hypothesis)
+```
+
+<br />
+
+![data reusing](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/data%20reusing.PNG)
+
+<br />
+
+#### Dealing with Data Snooping
+
+<br />
+
+```
+先保留好一筆做Validation的資料
+做決定(選特徵)前先不要看資料, 先將專業知識放進去, 不要看完資料才說資料有什麼特性
+```
+
+<br />
+
+![dealing with data snooping](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/dealing%20with%20data%20snooping.PNG)
+
+<br />
+
+***
+
+### Power of Three
+
+#### Three Related Fields
+
+1. Data Mining
+2. Artificial Intelligence
+3. Statistics
+
+<br />
+
+![related fields](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/related%20fields.PNG)
+
+<br />
+
+#### Three Theoretical Bounds
+
+1. Hoeffding
+2. Multi-Bin Hoeffding
+3. VC
+
+<br />
+
+![bounds](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/bounds.PNG)
+
+<br />
+
+#### Three Linear Models
+
+1. PLA/pocket
+2. Linear regression
+3. Logistic regression
+
+<br />
+
+![models](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/models.PNG)
+
+<br />
+
+#### Three Key Tools
+
+1. Feature Transform
+2. Regularization
+3. Validation
+
+<br />
+
+![tools](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/tools.PNG)
+
+<br />
+
+#### Three Learning Principles
+
+1. Occam's Razer: simple is good.
+2. Sampling Bias: class matches exam.
+3. Data Snooping: honesty is best policy.
+
+<br />
+
+#### Three Future Directions
+
+1. More Transform
+2. More Regularization
+3. Less Label
+
+<br />
+
+![directions](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/directions.PNG)
+
+<br />
+
+***
+
+### Summary
+
+<br />
+
+![summary](https://github.com/linda2020130/Notes_ML-Foundations/blob/master/Pictures/Week%2016/summary.PNG)
+
+<br />
