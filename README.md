@@ -1,1 +1,1 @@
-Notes for Machine Learning Foundations on Coursera
+Notes for NTU Machine Learning Foundations on Coursera
